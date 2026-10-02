@@ -1,0 +1,158 @@
+commit	family	change_type	summary
+3f8ce09	Dead-Code and Redundancy Elimination	comparator/width truncation	GAP_J2 comparator window narrowed by 2 bits for divsteps <200; D2 strip replaces M60; CCZ/CCX cancel passes
+5b834ba	Uncompute Strategy	measurement uncompute	From-zero square-correction adders and KG increment uncomputed by hmr+CZ; plus dead-gate cuts
+d484caa	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Identity-keyed 1e8-census deep strip of 1,442 dead CCX/CCZ
+a254a8a	Dead-Code and Redundancy Elimination	comparator/width truncation	Chunked-adder carry-erase comparators capped to top bits; ITERS 258→261; 1e9 strip
+2aedb45	Dead-Code and Redundancy Elimination	comparator/width truncation	SCHED_J2/GAP_J2 tail (divsteps 101–260) narrowed 1 bit; cap 1151; peak 1152
+3222da6	Dead-Code and Redundancy Elimination	comparator/width truncation	Tail narrowing deepened to 2 bits over divsteps 133–260; cap 1150; peak 1151
+f5ff95b	Register and Scratch Allocation	ancilla-lifetime / venting	TARGET_Q/SQUARE_PEAK_CAP 1150→1158: 7 more qubits buy ~9.1k fewer Toffoli
+60d6185	Dead-Code and Redundancy Elimination	comparator/width truncation	Depth-2 narrowing extended to divsteps 101–132; cap reset to 1150
+d9ef3e9	Register and Scratch Allocation	ancilla-lifetime / venting	Vent cap 1150→1154 on narrowed schedule: +3 qubits, −5.2k Toffoli
+7936360	Fusion	gate/op fusion	Post-strip single-CCX target-fanout closure (9 CCX pairs merged)
+b978905	Dead-Code and Redundancy Elimination	comparator/width truncation	Tail narrowing reshaped into 1/2/3-bit staircase (TN_SPEC) at cap 1152
+6e9f0af	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Dead-gate strip re-mined at larger risk budget (13,735 keys); reverts b978905 geometry
+266b783	Fusion	gate/op fusion	Re-adds the 9-pass post-strip target-fanout closure
+ea785b7	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Strip +96 keys at slightly larger risk budget; fanout loop dropped
+330d42d	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Codec normalizer CCX(6,10→9) becomes a CX that cancels the next CX; note claims nonce-only
+cf5aa02	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+37ab267	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Strip +1,852 keys (15,683); incidentally reverts the normalizer edit
+7fa872d	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+7726431	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Normalizer CCX→CX re-applied plus strip +414 keys (risk 2.5)
+5265674	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Strip stepped to risk 3.0 (+369 keys)
+d6eed9a	Constant Propagation and Classical Specialization	host-derived / classical specialization	Square's 128-shifted add/sub routed to shifted-low adder for known-zero low half
+4579b79	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Risk-3.0 strip (+369 keys) put back on the shifted-low circuit
+8af8a6f	Dead-Code and Redundancy Elimination	comparator/width truncation	Coordinate add/sub cleanup comparators narrowed 19→18 MSBs
+ed4b529	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Strip re-selected with union-of-failure-sets admission (17,278 keys); reverts 18-MSB cleanup
+258b25f	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Unread last-chunk carry-out dropped in varchunk adder; strip re-mined with true greedy
+3701581	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Strip rebuilt with NO_EVENT_CAP admission (+1,008 keys)
+59f3428	Fusion	gate/op fusion	Post-strip target-fanout closure re-added (10 rewrites)
+c24c306	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+892b03b	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	+832 strip keys priced on joint failure channel; fanout dropped; gidney flag dormant
+16351d8	Fusion	gate/op fusion	Same keys as parent; re-adds 10-pass fanout closure (stacks 832 keys on c24c306)
+2dabd9d	Register and Scratch Allocation	scratch/ancilla reuse	E209: keep MERGE25 op-5 AND product in ancilla, 5-ctrl→4-ctrl Toffoli
+474c29a	Dead-Code and Redundancy Elimination	iteration/threshold tuning	GCD apply-cswap skip-last fwd 2→3, inv 1→3; reverts E209
+9aceb7d	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Exact 7→3 affine-bridge peephole collapses a CCX conjugation pair
+8e62c01	Register and Scratch Allocation	scratch/ancilla reuse	Restores E209 MERGE25 shared-product reuse (~-360 T); drops affine bridge
+f735fd7	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Cascade lever: λ-priced cancellation of 11 blocked self-inverse CCX pairs
+9b2ce61	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Two exact affine-bridge CCX-pair peepholes; compact 14-op nonce tail
+ebdbaac	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Adds cascade root (529,530,1152) plus one affine bridge
+afcc72e	Dead-Code and Redundancy Elimination	comparator/width truncation	SCHED_J2/GAP_J2 tail −1 with caps 1153: 1154→1153 qubits; square carry vent
+0422437	Dead-Code and Redundancy Elimination	iteration/threshold tuning	GCD ITERS 261→259, 30 hot schedule entries widened
+31f9c58	Register and Scratch Allocation	ancilla-lifetime / venting	TARGET_Q/square cap 1149 → 1150 qubits; pinned index action mask replaces strip
+897dda2	Algorithmic Substitution	inversion/division algorithm swap	Ping-pong fixed-depth binary division replaces GCD inverse; product-register square
+8cdc0e6	Dead-Code and Redundancy Elimination	fold/carry truncation	Endpoint fold window 55→54 drops one carry ancilla (1321→1320)
+6ee4d14	Dead-Code and Redundancy Elimination	comparator/width truncation	Replay chunk-compare 24→23 and flag-compare 26→25
+37b0c9f	Dead-Code and Redundancy Elimination	fold/carry truncation	Replay fold window 56→55 (flag-compare widened 24→25)
+8e8f047	Dead-Code and Redundancy Elimination	fold/carry truncation	Replay fold window 55→54
+850db0c	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Ping-pong rounds 704→703 frees a tape qubit (1320→1319)
+8910bd1	Register and Scratch Allocation	ancilla-lifetime / venting	Erase boundary carries early, lazy carry-out (1317→1316); dead-low carries
+152fbe0	Register and Scratch Allocation	ancilla-lifetime / venting	Loan 15 constant/sign-copy terminal u,v wires across replay (1316→1301)
+11f5d9a	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+33e2b34	Constant Propagation and Classical Specialization	host-derived / classical specialization	Exact elision of provably-zero low carries in constant add/sub
+1f6b836	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply traversal rounds()-1→-2 (699→698); reverts dead-low
+7b3469b	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply traversal rounds()-2→-3; rest is CRLF churn
+5c23d45	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply traversal rounds()-3→-4
+2b450f3	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply traversal rounds()-3→-4 on 1277-qubit branch
+4417b24	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply traversal rounds()-4→-5
+03c9c5b	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+3f57ea5	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+0b82781	Register and Scratch Allocation	ancilla-lifetime / venting	Replay peak budget 1278→1276, re-chunked carries, square ladder 246, dead-low
+84a93cd	Register and Scratch Allocation	ancilla-lifetime / venting	Peak budget →1275, square ladder 245, multiply −7 rounds, dead-low
+8d3517a	Register and Scratch Allocation	ancilla-lifetime / venting	Exact two-segment fold retires low carry ladder first (1275→1274)
+920c5bb	Dead-Code and Redundancy Elimination	comparator/width truncation	Ping-pong replay chunk compare 25→24 and flag compare 28→26; rounds knob dormant
+9652eec	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply traversal 699 rounds (ROUNDS_MUL rounds()-1) gives peak 1301→1300; square chunking enabled
+99d85b5	Dead-Code and Redundancy Elimination	iteration/threshold tuning	ROUNDS_MUL rounds()-1 → rounds()-2 on the 1278 base
+adec6f4	Register and Scratch Allocation	ancilla-lifetime / venting	Free the duplicated terminal sign bit across the replay peak (1318→1317)
+be0c8bc	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Ping-pong walk depth 703→700 rounds (plus flag compare 25→24)
+cae8c82	Dead-Code and Redundancy Elimination	comparator/width truncation	REPLAY_CHUNK_COMPARE 26→25 on the new ping-pong division
+cb56b71	Register and Scratch Allocation	ancilla-lifetime / venting	Fused walk/replay interleave so tape and coefficient pair stop peaking together (1300→1281)
+cc82b18	Register and Scratch Allocation	ancilla-lifetime / venting	Exact two-chunk walk adder; checkpoint r1→298 spends peak slack on fewer replay repairs
+ce60e68	Register and Scratch Allocation	ancilla-lifetime / venting	Chunk interleaved walk add under plan peak; peak 1278→1277, square ladder 247
+d1bb787	Dead-Code and Redundancy Elimination	fold/carry truncation	ENDPOINT_FOLD_WINDOW 28→20 (diff also reverts jackylee's 1276 route)
+e5c53dc	Dead-Code and Redundancy Elimination	comparator/width truncation	REPLAY_FLAG_COMPARE 25→24
+e928607	Register and Scratch Allocation	ancilla-lifetime / venting	Ladder-budgeted chunk layout with exact narrow leading chunk; joint retune gives Q 1279→1278
+eb187a4	Dead-Code and Redundancy Elimination	comparator/width truncation	Re-apply REPLAY_FLAG_COMPARE 25→24 on top of fold window 54
+f3b2f1f	Register and Scratch Allocation	ancilla-lifetime / venting	0xrlawrence plan(): interleaved replay with per-round chunk counts, endpoint fold 28, Q 1279
+f615c6b	Register and Scratch Allocation	ancilla-lifetime / venting	Peak budget 1278→1277, r1 295, square ladder 247, plus ROUNDS_MUL rounds()-6
+f836a70	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Keep Q1278 (revert peak cut), take ROUNDS_MUL to rounds()-6
+ffc4e07	Verifier Search	nonce/island reroll	Tail nonce change only, island 9 Toffoli cheaper
+0440b62	Register and Scratch Allocation	ancilla-lifetime / venting	Peak 1271, square ladder 242 gives Q 1273→1272; flag compare 21→20, ROUNDS_MUL -7
+087cafa	Register and Scratch Allocation	ancilla-lifetime / venting	Co-binder ladder cut: replay peak 1275 and square ladder 245 (Q 1278→1275)
+36f6ca0	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Multiply walk depth 700→696 rounds
+6b5c82c	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Divide walk depth 698→694; endpoint fold widened 20→26 for λ
+70d64f5	Dead-Code and Redundancy Elimination	iteration/threshold tuning	ROUNDS_MUL rounds()-2 → rounds()-4
+787eaa8	Dead-Code and Redundancy Elimination	fold/carry truncation	REPLAY_FOLD_WINDOW 54→53 plus chunk compare 21→20
+7ca0559	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Divide depth 700→698, multiply depth 702→700
+8d7051b	Dead-Code and Redundancy Elimination	comparator/width truncation	Walk width SLOPE_2 33→34, square GUARD 44→24, chunk compare 23→21
+940e34a	Dead-Code and Redundancy Elimination	comparator/width truncation	Chunk compare 22→20; reverts 694-round cut and endpoint widening
+9805dee	Dead-Code and Redundancy Elimination	fold/carry truncation	Elide provably-dead low carries in constant fold adders (exact, -31 T)
+a8ab75a	Register and Scratch Allocation	ancilla-lifetime / venting	Peak 1273 and square ladder 243 co-binder cut; flag compare 24→21 offsets the cost
+a9af194	Verifier Search	nonce/island reroll	Tail nonce change only, island 3 Toffoli cheaper
+b5796ce	Dead-Code and Redundancy Elimination	comparator/width truncation	Data-fitted 700-entry WIDTH_SCHEDULE replaces linear walk-width slopes (~8k T)
+d631017	Dead-Code and Redundancy Elimination	comparator/width truncation	Replay overflow-flag comparator narrowed 24→20 bits (plus re-hunted nonce)
+def24be	Verifier Search	nonce/island reroll	Tail-nonce change only; no circuit edit
+2c79d2f	Dead-Code and Redundancy Elimination	comparator/width truncation	Width schedule rescaled onto 698 rounds, sparse +1 repair, peak co-lowered 1275→1274
+4eb93cb	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Divide walk 698→696 rounds, width repair disabled, peak/square ladder co-lowered to 1273
+51c6c31	Register and Scratch Allocation	scratch/ancilla reuse	Clean-ancilla parking: carries into output bits, selector/parity/input-half hosts, Q-6
+6752417	Register and Scratch Allocation	scratch/ancilla reuse	Merges 51c6c31 parking into d919bc6 low-T tree; canonical frame, Q1273→1267
+b523ecf	Dead-Code and Redundancy Elimination	comparator/width truncation	Linear width schedule (BREAK_1 30) and narrower compare/fold windows on alt tree
+bdf4845	Dead-Code and Redundancy Elimination	comparator/width truncation	Baked narrower greedy-minus-1000 per-round walk width table; reverts Q1275 dead-low trade
+d919bc6	Algorithmic Substitution	multiplier/squarer swap	Level-2 Karatsuba square plus round-1/round-0 walk fusions, phase-only comparator top
+522d002	Register and Scratch Allocation	scratch/ancilla reuse	Lend constant-1 u[0]/v[0] wires to pool during replay batches, Q-1
+037b888	Verifier Search	nonce/island reroll	Tail-nonce change only; no circuit edit
+64f9aaa	Dead-Code and Redundancy Elimination	iteration/threshold tuning	Divide walk rounds cut 696→694
+1f99759	Algorithmic Substitution	multiplier/squarer swap	Recursive in-place Karatsuba for materialized square branches; rounds restored to 696
+79e7afa	Register and Scratch Allocation	ancilla-lifetime / venting	Retune R1_MUL 315→326 and peak governor 1267→1268 for cheaper ladders
+cc409de	Strength Reduction	fast-adder reroute	Lift TLM_FFG_MAX_G clamp so 14 folds use clean carry ladder
+52da1ec	Dead-Code and Redundancy Elimination	comparator/width truncation	Replay overflow-flag comparator narrowed 22→20
+db7623e	Dead-Code and Redundancy Elimination	comparator/width truncation	Replay chunk-boundary comparator narrowed 22→21
+5526766	Register and Scratch Allocation	ancilla-lifetime / venting	Hmr-erase tape sign bits early, recompute at walkback (SIGN1/A0/B-chain), Q-2
+716e359	Dead-Code and Redundancy Elimination	comparator/width truncation	a0 recompute: 55-CCX truncated compare replaced by one CX of bit 255
+edeed3f	Dead-Code and Redundancy Elimination	fold/carry truncation	Endpoint fold window 26→18; deletes stale backup source snapshots
+708d567	Dead-Code and Redundancy Elimination	fold/carry truncation	Divide replay fold window 54→53 (peak governor back to 1267)
+c1adf3e	Register and Scratch Allocation	scratch/ancilla reuse	LOW0: free odd bit-0 wires across each walk add, reuse as carries, Q-1
+1196b9f	Dead-Code and Redundancy Elimination	fold/carry truncation	Clean rewrite; per-round fold/compare band profiles let cap drop 1263→1260
+e50a36f	Algorithmic Substitution	multiplier/squarer swap	Deeper recursive Karatsuba square, in-place sum, pad-free narrow ripple adds
+a39e07e	Dead-Code and Redundancy Elimination	fold/carry truncation	Fold profile 19:-3→-4 and cap 1260→1259; plus exact simplifier passes
+9700396	Dead-Code and Redundancy Elimination	fold/carry truncation	Fold profile one bit narrower, cap 1259→1258, predictors on all rounds
+291d749	Dead-Code and Redundancy Elimination	fold/carry truncation	Move fold widening from late retained sites to first 76 rounds
+b788efc	Uncompute Strategy	deferred coherent uncompute	Square cross-assembly boundary carries kept live until inverse; short-mul F seeding
+cc7f10e	Register and Scratch Allocation	scratch/ancilla reuse	PR419 62-knob composite: wire loans in square/replay/walk, cap 1259→1251, cheaper corrections
+f812a29	Fusion	gate/op fusion	Square diagonal spread carried by row carry-ins; bit-0 carry merged into fold carry
+0a06121	Dead-Code and Redundancy Elimination	fold/carry truncation	SQ_ASM_TAIL=21 cuts square cross-add carry ripple; walk width +1 on rounds 683-686
+3019006	Verifier Search	nonce/island reroll	TAIL_NONCE change only; no circuit change
+5a08ebd	Uncompute Strategy	measurement uncompute	Known-output receivers: CNOT-rebuilt carries plus hmr/CZ repair; loans, bridges, schedules, protection buys
+902ec7b	Constant Propagation and Classical Specialization	host-derived / classical specialization	SQ_ROW0_COPY: square row 0 becomes a Clifford copy; offset pre-added to classical coordinate
+03d9ecd	Dead-Code and Redundancy Elimination	fold/carry truncation	FOLD_GUARD 25→21, paid for by FOLD_WIDEN 64 and the 32-band fold profile
+265a9e9	Register and Scratch Allocation	ancilla-lifetime / venting	PP_N_HOLE2 frees round-2 tape sign wire (Q1251→1250); width schedule and BADJ retune
+8bba91b	Register and Scratch Allocation	in-place mutation	I35 bridge (in-place Cuccaro carry) profile moved to multiply tail after DPARK
+a231a39	Fusion	gate/op fusion	Square B-branch NAF fold merges/WCIN/SFUSE_B, DPARK parked bit, schedule re-derivation
+a3bbb0e	Dead-Code and Redundancy Elimination	comparator/width truncation	FOLD_WIDEN 242→0, PEAKCMP=24, drop-exact-lead layout, +1 division round, batch retune
+b2d9103	Fusion	gate/op fusion	j_fuse: coordinate subs fused with round-0/1 halving/doubling/seed correction ladders
+c8da745	Register and Scratch Allocation	scratch/ancilla reuse	Retained AND/cross2 scratch loans disabled; simplifiers re-run after witness pass
+ea73b1a	Register and Scratch Allocation	scratch/ancilla reuse	SQ_LEND_RETAINED_ANDS/CROSS2 2→0 on Q1250 frontier (-4 T)
+17bc487	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	Second simplify_products pass after witness substitution removes dead CCX
+a4b4125	Register and Scratch Allocation	in-place mutation	Walk cap 1250→1249 via re-profiled in-place bridges; BADJ narrowing, ERASE_COMPARE 24→25
+454ff5a	Uncompute Strategy	measurement uncompute	Square B-merge: 10-bit small register, inverse adds via known-output stream_wide
+718a807	Dead-Code and Redundancy Elimination	comparator/width truncation	PP_FLAG_WIDEN_DIV 38→696 turns off division flag-compare widening at Q1250
+73894fc	Dead-Code and Redundancy Elimination	comparator/width truncation	PP_FLAG_WIDEN_DIV 38→696 turns off division flag-compare widening at Q1249
+87a1c68	Dead-Code and Redundancy Elimination	comparator/width truncation	Reverts to 17bc487 at Q1250 plus PP_CHUNK_SHAPE 25:-2→25:-3
+8ee337c	Algorithmic Substitution	inversion/division algorithm swap	GCD Skywalk: min-source binary GCD with trit-packed history replaces PingPong (Q1250→1174)
+0642f52	Constant Propagation and Classical Specialization	host-derived / classical specialization	11 more offline SAT-proven CCX→CX linear-span rewrite rows
+4ea960f	Dead-Code and Redundancy Elimination	comparator/width truncation	sky8: wider envelopes bought, HEO_SPLIT_K 21 and per-cell compare cuts sold
+70148ce	Dead-Code and Redundancy Elimination	comparator/width truncation	Ports sky8 SPLIT_K/GO_CELL compare sells and envelopes onto 800ba12
+800ba12	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	HEO_MB_SKIP2 skips near-identity mul route at R-2; chunk shape 0:-5; rewrites dropped
+82c849b	Fusion	gate/op fusion	sky5: FD payload/y-coordinate fusions, classical-operand adds/compares, codec shares, 57 SAT rows
+bdff8c8	Dead-Code and Redundancy Elimination	comparator/width truncation	GO_CHUNK 0-399:-1 one fewer chunk-compare bit; MB_SKIP2 kept; 65 rewrite rows
+84e78ce	Dead-Code and Redundancy Elimination	comparator/width truncation	sky12: more GO_CELLB/GO_CELLF compare bands with net bit reduction
+f260d33	Dead-Code and Redundancy Elimination	comparator/width truncation	FIT_K 22, ERASE_COMPARE 25→22, ASM_TAIL 18, FOLD_GUARD 20
+1034430	Verifier Search	nonce/island reroll	Tail-nonce change only (12002361956562 → 12002628222642); no circuit change
+1c54ce2	Dead-Code and Redundancy Elimination	comparator/width truncation	sky13: PP_N_BADJ re-balance, div 220-249 and mul 346-365 sold, mul 220-264 bought
+af01015	Verifier Search	nonce/island reroll	sky13 tail-nonce re-roll only (13000697424674 → 13001252729527)
+83a3765	Verifier Search	nonce/island reroll	sky13 tail-nonce re-roll only (13001252729527 → 13001547302525)
+1c185d1	Verifier Search	nonce/island reroll	sky13 tail-nonce re-roll only (13001547302525 → 13001751969103)
+cc530e2	Dead-Code and Redundancy Elimination	fold/carry truncation	sky14: late fold windows −1 bit (25:-3, 0:-5), paid by FOLD_WIDEN 68→112
+b997d0a	Verifier Search	nonce/island reroll	sky14 tail-nonce re-roll only (14000222169933 → 14002253611947)
+9556f90	Dead-Code and Redundancy Elimination	fold/carry truncation	sky15: fold profile 44:0/38:-1/25:-5, FOLD_WIDEN 144, FIT_K and ERASE_COMPARE 21
+36d313e	Verifier Search	nonce/island reroll	sky15 tail-nonce re-roll only (15000704855378 → 15500142914726)
+799153a	Register and Scratch Allocation	ancilla-lifetime / venting	sky16: HEO_R1M 190→99 gives head-batch cells more room, 3 chunks not 4

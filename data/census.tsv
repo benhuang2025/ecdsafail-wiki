@@ -1,0 +1,405 @@
+commit	contestant	date	score	delta	family	change_type	source
+75851e6	bket7	2026-06-19	1658362156	-319484	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+57eb64b	benhuang2025	2026-06-19	1669072000	-3061328	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1caf521	mpjunior92	2026-06-16	1672963776	-1569792	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+7bab51f	nasqret	2026-06-14	1677861900	-498420	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+f50ae3b	gnuchev	2026-06-14	1678360320	-269100	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6878ef8	gnuchev	2026-06-14	1678629420	-319410	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+cf99209	nasqret	2026-06-13	1683083736	-526864	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+186d9d7	rubenmarcus	2026-06-12	1699653032	-767774	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6777223	rubenmarcus	2026-06-12	1700420806	-627298	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+0d1d1e7	mpjunior92	2026-06-12	1701048104	-293062	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8cd8104	jackylee0424	2026-06-11	1702054020	-1013749	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5a783e4	nasqret	2026-06-11	1704784725	-270945	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+f4404de	jackylee0424	2026-06-11	1713097160	-26840	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1a5e620	BitWonka	2026-06-10	1716174108	-26999973	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+00fb66d	jieyilong	2026-06-10	1743174081	-623931	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+707c1d9	jieyilong	2026-06-10	1765489770	-632220	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8e0bf4f	BitWonka	2026-06-10	1766121990	-2044435	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ab5469b	jackylee0424	2026-06-10	1774726350	-20560	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+980ed3a	jackylee0424	2026-06-09	1785547335	-1286285	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+2dcf00d	jackylee0424	2026-06-08	1820641701	-28534	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+f3820d0	SamrendraS	2026-06-08	1823175078	-1406122	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+da55bbb	SamrendraS	2026-06-08	1824581200	-694200	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+73f4f48	gnuchev	2026-06-08	1891349200	-1475700	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+a5a590a	gnuchev	2026-06-08	1892824900	-109934	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+94927be	jackylee0424	2026-06-07	1893823629	-3142197	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+013f1f7	zuiris	2026-06-07	1899562014	-1666560	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+99b9cff	zuiris	2026-06-07	1901228574	-4775252	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+fc84586	jackylee0424	2026-06-07	1911704516	-676508	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8925623	BitWonka	2026-06-07	1939751375	-188208	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+779fc2b	jackylee0424	2026-06-06	1944384690	-677026	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ace6347	teddyjfpender	2026-06-06	1945061716	-661342	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+e0767c7	jackylee0424	2026-06-06	1945723058	-677026	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+3033d01	jackylee0424	2026-06-06	1967891695	-675444	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+88079e6	10d9e	2026-06-06	1969242583	-675444	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8e13587	runeape-sats	2026-06-06	1969918027	-141372	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ebbe44e	zuiris	2026-06-06	1977629346	-827329	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+7f656bd	zuiris	2026-06-06	1978786502	-4018630	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1121d80	welttowelt	2026-06-06	1982805132	-1361360	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+cee4044	welttowelt	2026-06-06	1984166492	-1511895	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+c80fc1c	newjordan	2026-06-06	1990208636	-1123928	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+974689f	newjordan	2026-06-06	1991332564	-680134	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+373fb4d	newjordan	2026-06-06	1992012698	-680134	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+9906ec0	newjordan	2026-06-06	1992692832	-443794	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+2f1f175	newjordan	2026-06-06	1993136626	-680134	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+196d830	newjordan	2026-06-06	2013389651	-1397032	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+22624a0	BitWonka	2026-06-06	2014786683	-1150188	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+587b6d8	anshu4321	2026-06-06	2015936871	-680134	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+4ef0046	BitWonka	2026-06-05	2016617005	-212706	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+02049b8	10d9e	2026-06-05	2016829711	-1150188	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+91061af	newjordan	2026-06-05	2020184357	-1838686	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5ad4427	newjordan	2026-06-05	2022023043	-1688320	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+58ecf0a	10d9e	2026-06-05	2025245640	-633600	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+351a0d0	10d9e	2026-06-05	2025879240	-1151040	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+83da96f	10d9e	2026-06-05	2027030280	-3429360	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ec0fa98	10d9e	2026-06-05	2030459640	-2808960	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+e4497a6	robertkodra	2026-06-05	2036687400	-1156320	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+db60686	robertkodra	2026-06-05	2037843720	-2595120	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+bbf7b3a	AnalyticETH	2026-06-05	2046711480	-464640	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8c28287	zuiris	2026-06-05	2047176120	-1277760	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8a9d274	factory-sagar	2026-06-05	2048453880	-781440	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+2f24e2f	robertkodra	2026-06-05	2049235320	-1156320	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6abbe60	robertkodra	2026-06-05	2050391640	-364320	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+cf5e390	robertkodra	2026-06-05	2050755960	-1140480	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+c3cbcce	newjordan	2026-06-05	2051896440	-728640	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5ad23b1	zuiris	2026-06-05	2052625080	-1029210	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ca7fd40	mpjunior92	2026-06-05	2055555480	-4812720	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+229aeed	10d9e	2026-06-05	2060368200	-498960	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+a92d098	newjordan	2026-06-05	2064288600	-192720	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+94e9418	newjordan	2026-06-05	2064481320	-1869120	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ae3b97b	10d9e	2026-06-05	2091370926	-530688	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+05d68e5	10d9e	2026-06-05	2091901614	-751808	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+fa5347c	factory-sagar	2026-06-05	2110268810	-1442820	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+bc858e8	10d9e	2026-06-05	2111711630	-720020	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+fc27501	alexander-sei	2026-06-05	2112431650	-13577520	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+f0e2891	robertkodra	2026-06-05	2126009170	-1237100	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+b84d15c	robertkodra	2026-06-05	2127246270	-1334400	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+af0f90a	10d9e	2026-06-05	2128580670	-720020	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+dda7bfd	robertkodra	2026-06-05	2129300690	-811760	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+98416e4	robertkodra	2026-06-05	2130112450	-261320	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+4527ae1	PhantasticUniverse	2026-06-05	2130373770	-1073080	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1991d1c	newjordan	2026-06-05	2132814610	-17525120	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+7c82c3c	newjordan	2026-06-05	2150339730	-4692640	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+247db26	johnbxx	2026-06-05	2156477970	-39476000	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5b3887b	newjordan	2026-06-05	2195953970	-25242400	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+c6cc74e	robertkodra	2026-06-05	2222564130	-5604480	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+01260e8	newjordan	2026-06-05	2228168610	-29556960	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+9d30eb7	johnbxx	2026-06-05	2257725570	-8651360	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+d3e35ae	mpjunior92	2026-06-03	2405410905	-1701880	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+cbe70bc	mpjunior92	2026-06-03	2407112785	-2829240	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+353ac6d	mpjunior92	2026-06-03	2409942025	-693760	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+da42ce2	harrigan	2026-06-03	2410635785	-2905120	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5b5a5d4	teddyjfpender	2026-06-03	2430923007	-3025184	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+b27f99c	aburan28	2026-06-03	2455281894	-6619344	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+bdfc7df	aburan28	2026-06-03	2471488962	-5019000	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+e75ea5c	10d9e	2026-06-03	2476507962	-1542984	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+2bd707e	aburan28	2026-06-03	2478050946	-1497096	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+b343178	BitWonka	2026-06-03	2479548042	-648168	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5d2f6cf	BitWonka	2026-06-03	2480196210	-1132860	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+238d366	BitWonka	2026-06-03	2481329070	-1525776	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+34a514a	twangodev	2026-06-03	2484807954	-1135728	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5a2d910	twangodev	2026-06-03	2485943682	-7995984	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+113f346	twangodev	2026-06-03	2498876289	-6632028	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+144e07f	phileigenlabs	2026-06-03	2505508317	-473304	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+d2b4bcf	Epistetechnician	2026-06-02	2510523510	-1469136	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+14b84f1	10d9e	2026-06-02	2533577850	-1489456	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+47f30d4	josusanmartin	2026-06-02	2592421194	-1467984	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1207861	pldallairedemers	2026-06-02	2637203021	-1491784	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ecbf87b	mpjunior92	2026-06-02	2638694805	-2507200	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+006e38b	solimander	2026-06-02	2641202005	-1250466	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+7408de1	prasiddhnaik	2026-06-02	2736895656	-58127	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6e7ca2c	mpjunior92	2026-06-02	2736953783	-1822360	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+14fc786	mpjunior92	2026-06-02	2738776143	-2934628	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+bb27ddd	anupsv	2026-06-02	2769217908	-14632176	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+4b68e94	mpjunior92	2026-06-02	2822498802	-1215768	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+412312f	mpjunior92	2026-06-02	2823714570	-6656160	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8316db1	mpjunior92	2026-06-02	2830370730	-1215768	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1fd942d	Gajesh2007	2026-06-02	2831586498	-1086720	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+eda50f2	Epistetechnician	2026-06-02	2832673218	-869376	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+b694e22	Gajesh2007	2026-06-02	2833542594	-2859432	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+dd103cd	M3kko	2026-06-02	2873320661	-9151501	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+ad02935	Gajesh2007	2026-06-02	2882472162	-9659922	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+27530d2	pldallairedemers	2026-06-02	2892132084	-1405944	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+1846bf7	megabyte0x	2026-06-02	3270229140	-4265376	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+3c30191	jtrose24	2026-06-02	3315144636	-49839696	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6447611	owizdom	2026-06-02	3538424844	-236823456	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+8cb350c	Gajesh2007	2026-06-02	4068676284	-27833616	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+564c4c3	owizdom	2026-06-02	4096509900	-34503360	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+00e3a20	anupsv	2026-06-02	4131013260	-17007168	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+541bd85	josusanmartin	2026-06-02	4148020428	-8422080	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+700d5a7	0xpg	2026-06-02	5148949806	-8808800	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6e71096	Gajesh2007	2026-06-02	5561829149	-849712	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+85ee8e7	mpjunior92	2026-06-01	5574826510	-10256578	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+5136c0a	mpjunior92	2026-06-01	5597330024	-25066504	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+49b7969	anupsv	2026-06-01	5622396528	-10071858	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+141b79a	Gajesh2007	2026-06-01	5935088235	-40093476	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+9fa5a56	anupsv	2026-06-01	5976793393	-51347542	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+c7e1ae5	saucegodbased	2026-06-01	6028140935	-7157900	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+a25248f	Gajesh2007	2026-06-01	6035298835	-4811956	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+404d630	Gajesh2007	2026-06-01	6040110791	-413504956	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+0c25aca	Gajesh2007	2026-06-01	6453615747	-8280074	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+bf19c9e	Gajesh2007	2026-06-01	6461895821	-27320088	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6eba4e3	Gajesh2007	2026-06-01	6489215909	-3204892	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+e739b53	anupsv	2026-06-01	6540623485	-10196544	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+179ab10	anupsv	2026-06-01	6550820029	-13535358	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+fc8b9e6	Gajesh2007	2026-06-01	6616811249	-10113420	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+13ac8da	Gajesh2007	2026-06-01	6764917436	-100441500	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+b86e789	Gajesh2007	2026-06-01	6865358936	-96285300	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+6da9882	Gajesh2007	2026-06-01	6964659240	-110103840	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+36e8578	Gajesh2007	2026-06-01	7077100800	-677010180	Dead-Code and Redundancy Elimination	comparator/width truncation	census-2026-07-18
+f861f87	jackylee0424	2026-06-20	1597837965	-1159	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+5f3a0e3	bket7	2026-06-20	1598512503	-207461	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f0c1c42	bket7	2026-06-20	1598719964	-1335168	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+0fa5c6f	jieyilong	2026-06-13	1683610600	-1371863	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f6f9536	BitWonka	2026-06-10	1768166425	-6559925	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+1a7895c	welttowelt	2026-06-07	1907351618	-4352898	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+2c3b795	zuiris	2026-06-06	1940606153	-3778537	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f5f0f61	jieyilong	2026-06-06	1949378508	-3776465	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+a6a92a4	jieyilong	2026-06-06	1953154973	-3724105	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f37a0bc	jackylee0424	2026-06-06	1956879078	-3734577	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+76fdaf2	newjordan	2026-06-06	1986336599	-3872037	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+c64c03f	PhantasticUniverse	2026-06-05	2060867160	-3421440	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+fec6d25	10d9e	2026-06-05	2092653422	-17615388	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+8ef64e9	stevenhao	2026-06-04	2381382450	-18066455	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+39134ec	stevenhao	2026-06-04	2399448905	-2981000	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+c3c3f8d	PhantasticUniverse	2026-06-04	2402429905	-2981000	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+a392fd4	aburan28	2026-06-03	2439135048	-3078384	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+311d6c3	aburan28	2026-06-03	2445362892	-3038784	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+339fe8d	aburan28	2026-06-03	2482854846	-1953108	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f42ce5c	Sam-Scolari	2026-06-03	2497479574	-1396715	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+fd8e712	pldallairedemers	2026-06-02	2535067306	-4459572	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+7c29f79	mmurrs	2026-06-02	2574991500	-3084000	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+801b73e	0xpg	2026-06-02	5157758606	-904904	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+13a7a53	antojoseph	2026-06-02	5182912575	-421200	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+17ae622	Epistetechnician	2026-06-02	5183333775	-1684800	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+0e726ac	mpjunior92	2026-06-02	5547081566	-1339220	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+8eb6b5e	jtrose24	2026-06-02	5562678861	-12147649	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+297f5e5	jtrose24	2026-06-01	5653140863	-33727563	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+330186c	anupsv	2026-06-01	5975181711	-1611682	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+ac52c2e	Gajesh2007	2026-06-01	6496336865	-11720484	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f910ba3	Gajesh2007	2026-06-01	7756453320	-1173480	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+a428a8c	Gajesh2007	2026-06-01	7757626800	-8036490	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+77b87f1	bxue-l2	2026-06-01	8372879130	-25902869	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+a3ee589	philuponcrypto	2026-05-31	8405420100	-40029990	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+1c400f2	chainyoda	2026-05-31	10318536120	-3910352	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+a444668	unknown	2026-05-31	10397877812	-690540	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+9bd0748	unknown	2026-05-31	10398568352	-173734448	Dead-Code and Redundancy Elimination	iteration/threshold tuning	census-2026-07-18
+f6ce76d	BitWonka	2026-06-20	1597839124	-229482	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+3df690f	gopikannappan	2026-06-20	1607030040	-1870580	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+31421df	jieyilong	2026-06-20	1616813772	-1877220	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+f265bb1	jackylee0424	2026-06-19	1646703035	-9320	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+550595a	jackylee0424	2026-06-19	1649234708	-1166	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+ed2715f	gnuchev	2026-06-19	1649235874	-461736	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+764afda	gnuchev	2026-06-19	1651099142	-39644	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+916c0e3	DavetheSlayer	2026-06-19	1651138786	-37312	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+bc2334a	BitWonka	2026-06-19	1651176098	-5923280	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+fd89e69	jieyilong	2026-06-19	1658681640	-26818	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+a9ac507	jieyilong	2026-06-19	1658708458	-26818	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+c9c03de	jackylee0424	2026-06-19	1658735276	-4664	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+98e1322	zuiris	2026-06-11	1709962980	-3134180	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+c8f4536	BitWonka	2026-06-07	1939939583	-666570	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+11ceae2	welttowelt	2026-06-06	1960613655	-7278040	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+004ffc0	zuiris	2026-06-06	1970059399	-1350888	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+69bd3d7	Gajesh2007	2026-06-06	1971410287	-5931008	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+21fbfc7	robertkodra	2026-06-05	2033268600	-3418800	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+66c6dac	mpjunior92	2026-06-05	2054166840	-1388640	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+438ef00	mpjunior92	2026-06-05	2089123794	-2247132	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+5174a69	PhantasticUniverse	2026-06-05	2131446850	-1367760	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+657ae28	PhantasticUniverse	2026-06-05	2221196370	-1367760	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+cc5584e	PhantasticUniverse	2026-06-05	2379298050	-2084400	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+40574d3	mpjunior92	2026-06-02	2616750555	-3693942	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+7787f81	mpjunior92	2026-06-02	2620444497	-10554777	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+f8a36ba	Gajesh2007	2026-06-02	2893538028	-227470872	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+115ab0e	xadenryan	2026-06-02	5166788002	-32096	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+61bdeb0	antojoseph	2026-06-02	5180304536	-48576	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+8d83e8e	0xpg	2026-06-02	5182432650	-479925	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+3ab1c72	anupsv	2026-06-02	5548420786	-1108320	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+3f534f2	Gajesh2007	2026-06-02	5549529106	-12300043	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+1b913c5	anupsv	2026-06-01	5585083088	-12246936	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+ba05d3a	Gajesh2007	2026-06-01	5686868426	-195285984	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+d6551e8	solimander	2026-06-01	5882154410	-52933825	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+a97b4e9	Gajesh2007	2026-06-01	6508057349	-18430438	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+2abe7f4	Gajesh2007	2026-06-01	6564355387	-52455862	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+1e18b4d	Gajesh2007	2026-06-01	6626924669	-137992767	Dead-Code and Redundancy Elimination	fold/carry truncation	census-2026-07-18
+9eea46c	jackylee0424	2026-07-18	1519161984	-8064	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+a505e6d	mochimodev	2026-07-11	1519170048	-2348928	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+6dafa07	BitWonka	2026-06-26	1576955794	-894728	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+da51a48	jieyilong	2026-06-23	1577865511	-97609	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+985eaec	BitWonka	2026-06-23	1577963120	-1086640	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+27d4627	BitWonka	2026-06-22	1579049760	-321368	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+6c0769f	BitWonka	2026-06-22	1579371128	-1945292	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+20b9a1d	mpjunior92	2026-06-21	1581316420	-1439478	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+4a90d04	zuiris	2026-06-21	1582755898	-13950606	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+9af02f7	gnuchev	2026-06-21	1597055640	-282796	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+9d524b7	BitWonka	2026-06-20	1597538943	-150787	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+6ba606a	jieyilong	2026-06-20	1597689730	-148235	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+a47dc6e	PhantasticUniverse	2026-06-19	1644083652	-1186116	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+ba3efc1	BitWonka	2026-06-18	1672133328	-830448	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+7822c37	BitWonka	2026-06-09	1774746910	-1322265	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+b8ce940	BitWonka	2026-06-09	1776069175	-651495	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+b55ede3	welttowelt	2026-06-06	1968567139	-226336	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+975b73f	josusanmartin	2026-06-02	2590854522	-1515843	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+908521d	anupsv	2026-06-02	5121484498	-27465308	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+c8e508f	Gajesh2007	2026-06-01	8367457560	-5421570	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+a16788e	unknown	2026-05-30	10579872520	-118867397	Dead-Code and Redundancy Elimination	dead-gate/self-inverse removal	census-2026-07-18
+d11bdbb	BitWonka	2026-06-20	1600244049	-6765039	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+fed64cf	nasqret	2026-06-20	1608900620	-5159212	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+b310de9	BitWonka	2026-06-19	1642623526	-924686	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+f8d23a9	BitWonka	2026-06-19	1645269768	-1030177	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+cea9f5f	BitWonka	2026-06-19	1646712355	-2059451	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+cf3c6f1	BitWonka	2026-06-12	1701341166	-712854	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+9191f81	zuiris	2026-06-11	1708341222	-1621758	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+572bba4	zuiris	2026-06-10	1743798012	-3488606	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+da398df	BitWonka	2026-06-08	1786833620	-11871920	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+89abe1b	zuiris	2026-06-06	1946400084	-2978424	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+33c072d	jieyilong	2026-06-06	1968793475	-449108	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+a5e8bdf	runeape-sats	2026-06-06	1977341295	-288051	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+571e67c	runeape-sats	2026-06-06	1978456675	-329827	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+06b07ee	teddyjfpender	2026-06-05	2066350440	-22773354	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+1eae277	newjordan	2026-06-05	2155032370	-1445600	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+250774e	10d9e	2026-06-02	2578075500	-12779022	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+46c3e3a	bxue-l2	2026-06-02	2593889178	-1682159	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+7021abe	anupsv	2026-06-02	2614737018	-544601	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+287595e	10d9e	2026-06-02	2615519241	-1231314	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+550895c	solimander	2026-06-02	2647454335	-84484816	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+36dcf6b	pldallairedemers	2026-06-02	2744218087	-1746797	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+68e3653	saucegodbased	2026-06-02	2783850084	-38648718	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+0435f04	nandy-technologies	2026-06-02	5160257102	-5760596	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+ccd7530	Gajesh2007	2026-06-02	5166820098	-13484438	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+9899c06	antojoseph	2026-06-02	5180353112	-2079538	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+233a44c	Gajesh2007	2026-06-02	5185018575	-362062991	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+0e32587	Gajesh2007	2026-06-01	6961644236	-3015004	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+74a1a8b	cryptogakusei	2026-05-31	9603905752	-433280	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+b827c9e	unknown	2026-05-31	10395860352	-2017460	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+bc9728a	unknown	2026-05-30	10572584432	-7288088	Register and Scratch Allocation	ancilla-lifetime / venting	census-2026-07-18
+461a4a3	BitWonka	2026-06-11	1703067769	-1716956	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+420e0c2	BitWonka	2026-06-11	1705055670	-2814186	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+997dbd6	BitWonka	2026-06-11	1713124000	-3050108	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+8983da8	SamrendraS	2026-06-08	1822107738	-1067340	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+ea8ce7b	jieyilong	2026-06-07	1916455744	-1488336	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+3409fbd	zuiris	2026-06-07	1920798194	-1491661	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+13a01b8	nikhiljha	2026-06-03	2413540905	-17382102	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+e0cfe2b	nikhiljha	2026-06-03	2433948191	-3091060	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+24a4076	nikhiljha	2026-06-03	2437039251	-2095797	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+3166bbd	nikhiljha	2026-06-03	2442213432	-3149460	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+dd188f8	nikhiljha	2026-06-03	2448401676	-6880218	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+1d2cbc9	mpjunior92	2026-06-02	2505981621	-2913693	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+6189d5f	alexander-sei	2026-06-02	2508895314	-1628196	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+8ab5f90	pldallairedemers	2026-06-02	2511992646	-21585204	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+92a247e	mpjunior92	2026-06-02	2539526878	-35464622	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+a8688f8	josusanmartin	2026-06-02	5166017698	-770304	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+666b591	Gajesh2007	2026-05-31	10347216548	-48643804	Register and Scratch Allocation	scratch/ancilla reuse	census-2026-07-18
+fe29b53	josusanmartin	2026-06-02	2615281619	-237622	Register and Scratch Allocation	in-place mutation	census-2026-07-18
+b113c6f	mpjunior92	2026-06-02	2630999274	-6203747	Register and Scratch Allocation	in-place mutation	census-2026-07-18
+d19dbb5	Gajesh2007	2026-05-31	8445450090	-1145844506	Register and Scratch Allocation	in-place mutation	census-2026-07-18
+d44cad3	BitWonka	2026-06-26	1571592960	-5362834	Uncompute Strategy	measurement uncompute	census-2026-07-18
+5c34dd1	BitWonka	2026-06-20	1598068606	-443897	Uncompute Strategy	measurement uncompute	census-2026-07-18
+d636d62	nasqret	2026-06-11	1707869856	-471366	Uncompute Strategy	measurement uncompute	census-2026-07-18
+08c5068	BitWonka	2026-06-10	1747286618	-12457386	Uncompute Strategy	measurement uncompute	census-2026-07-18
+b7515d5	zuiris	2026-06-09	1780286545	-3442515	Uncompute Strategy	measurement uncompute	census-2026-07-18
+c27e8a5	zuiris	2026-06-09	1783729060	-1818275	Uncompute Strategy	measurement uncompute	census-2026-07-18
+98dd2ad	BitWonka	2026-06-08	1798705540	-21936161	Uncompute Strategy	measurement uncompute	census-2026-07-18
+bfd3fa6	BitWonka	2026-06-08	1825275400	-66073800	Uncompute Strategy	measurement uncompute	census-2026-07-18
+e321f72	BitWonka	2026-06-07	1892934834	-888795	Uncompute Strategy	measurement uncompute	census-2026-07-18
+bde4caa	zuiris	2026-06-07	1896965826	-2596188	Uncompute Strategy	measurement uncompute	census-2026-07-18
+a88c9a1	welttowelt	2026-06-07	1906003826	-1347792	Uncompute Strategy	measurement uncompute	census-2026-07-18
+94535d1	welttowelt	2026-06-07	1917944080	-2854114	Uncompute Strategy	measurement uncompute	census-2026-07-18
+fb83e6c	nikhiljha	2026-06-03	2461901238	-9587724	Uncompute Strategy	measurement uncompute	census-2026-07-18
+985ae0f	josusanmartin	2026-06-02	2841822042	-26135195	Uncompute Strategy	measurement uncompute	census-2026-07-18
+0aa33ed	Gajesh2007	2026-06-02	2871482706	-1837955	Uncompute Strategy	measurement uncompute	census-2026-07-18
+acf2bdb	saucegodbased	2026-06-02	3121008900	-40650120	Uncompute Strategy	measurement uncompute	census-2026-07-18
+4b9cfbb	saucegodbased	2026-06-02	3274494516	-40650120	Uncompute Strategy	measurement uncompute	census-2026-07-18
+c813ee5	saucegodbased	2026-06-02	3364984332	-173440512	Uncompute Strategy	measurement uncompute	census-2026-07-18
+7e660f9	saucegodbased	2026-06-02	3775248300	-293427984	Uncompute Strategy	measurement uncompute	census-2026-07-18
+ce60f0e	Gajesh2007	2026-06-01	7754110980	-2342340	Uncompute Strategy	measurement uncompute	census-2026-07-18
+81ff75b	Gajesh2007	2026-05-31	10322446472	-21997084	Uncompute Strategy	measurement uncompute	census-2026-07-18
+e33b400	cryptogakusei	2026-05-31	10344443556	-2772992	Uncompute Strategy	measurement uncompute	census-2026-07-18
+cde752d	BitWonka	2026-06-21	1596706504	-349136	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+f8e215b	gopikannappan	2026-06-20	1597382478	-156465	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+662e267	bket7	2026-06-20	1600055132	-188917	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+7b7bd12	BitWonka	2026-06-20	1614062156	-70882	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+d2643bc	nasqret	2026-06-19	1618690992	-377136	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+fa7126d	gopikannappan	2026-06-19	1643656464	-427188	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+9798bc9	gopikannappan	2026-06-19	1646299945	-356490	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+b02b354	gopikannappan	2026-06-19	1648771806	-462902	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+497cc20	gopikannappan	2026-06-19	1649697610	-1378212	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+c69b6c1	zuiris	2026-06-05	2023711363	-1534277	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+8117d98	mpjunior92	2026-06-02	2642452471	-5001864	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+17aad9a	mpjunior92	2026-06-02	2731939151	-4956505	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+335ac78	solimander	2026-06-02	2741710771	-2507316	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+075c0c6	ptrdsh	2026-06-02	2745964884	-5017824	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+9805d0c	Epistetechnician	2026-06-02	2836402026	-5420016	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+0261289	Epistetechnician	2026-06-02	2867957237	-3525469	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+b60eec2	saucegodbased	2026-06-01	8398781999	-6638101	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+3bbccd3	mmurrs	2026-05-31	9591294596	-16248	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+8631b04	unknown	2026-05-30	10572302800	-281632	Constant Propagation and Classical Specialization	host-derived / classical specialization	census-2026-07-18
+2a87f33	Gajesh2007	2026-06-09	1776720670	-2983770	Strength Reduction	fast-adder reroute	census-2026-07-18
+82f7a95	newjordan	2026-06-07	1912381024	-4074720	Strength Reduction	fast-adder reroute	census-2026-07-18
+639f12c	runeape-sats	2026-06-06	1985678387	-658212	Strength Reduction	fast-adder reroute	census-2026-07-18
+df83d16	bxue-l2	2026-06-02	2595571337	-19165681	Strength Reduction	fast-adder reroute	census-2026-07-18
+53f0bdb	anupsv	2026-06-01	5632468386	-20672477	Strength Reduction	fast-adder reroute	census-2026-07-18
+d4959a1	Gajesh2007	2026-06-01	6492420801	-3916064	Strength Reduction	fast-adder reroute	census-2026-07-18
+0be8d11	Gajesh2007	2026-06-01	6526487787	-14135698	Strength Reduction	fast-adder reroute	census-2026-07-18
+04b3a76	mmurrs	2026-05-31	9591310844	-12594908	Strength Reduction	fast-adder reroute	census-2026-07-18
+168048c	unknown	2026-05-30	10698739917	-5834478	Strength Reduction	fast-adder reroute	census-2026-07-18
+aacf05c	gnuchev	2026-06-20	1614133038	-1831866	Strength Reduction	solinas / NAF fold	census-2026-07-18
+e25c7d8	0xLucqs	2026-06-20	1615964904	-848868	Strength Reduction	solinas / NAF fold	census-2026-07-18
+4ea8b74	alexander-sei	2026-06-19	1641531000	-1092526	Strength Reduction	solinas / NAF fold	census-2026-07-18
+ed94ad2	SamrendraS	2026-06-09	1779704440	-582105	Strength Reduction	solinas / NAF fold	census-2026-07-18
+6bf73fe	BitWonka	2026-06-07	1922289855	-17461520	Strength Reduction	solinas / NAF fold	census-2026-07-18
+12c7337	PhantasticUniverse	2026-06-19	1643554032	-102432	Fusion	gate/op fusion	census-2026-07-18
+b1dec1e	nasqret	2026-06-19	1657099378	-1253450	Fusion	gate/op fusion	census-2026-07-18
+84d5b0e	rubenmarcus	2026-06-15	1676067120	-1794780	Fusion	gate/op fusion	census-2026-07-18
+8a47cf5	johnbxx	2026-06-06	1993816760	-19572891	Fusion	gate/op fusion	census-2026-07-18
+e4edca0	nikhiljha	2026-06-03	2493939666	-3539908	Fusion	gate/op fusion	census-2026-07-18
+9b6b9d6	Epistetechnician	2026-06-02	3161659020	-108570120	Fusion	gate/op fusion	census-2026-07-18
+f9fae31	Gajesh2007	2026-06-01	7074763080	-2337720	Fusion	gate/op fusion	census-2026-07-18
+422f21d	mochimodev	2026-07-07	1521518976	-50073984	Fusion	boundary cswap-merge	census-2026-07-18
+cef001a	owizdom	2026-06-02	5120690122	-794376	Fusion	boundary cswap-merge	census-2026-07-18
+cd34b79	antojoseph	2026-06-02	5158663510	-1593592	Fusion	boundary cswap-merge	census-2026-07-18
+36a2989	Gajesh2007	2026-06-01	7765663290	-601794270	Fusion	boundary cswap-merge	census-2026-07-18
+9bcc27d	Gajesh2007	2026-05-31	9604339032	-714197088	Fusion	boundary cswap-merge	census-2026-07-18
+7689eac	welttowelt	2026-06-10	1759744004	-5745766	Windowing	windowed carry/shift blocks	census-2026-07-18
+2eab923	PhantasticUniverse	2026-06-05	2040438840	-6272640	Windowing	windowed carry/shift blocks	census-2026-07-18
+a91b626	robertkodra	2026-06-05	2053654290	-512550	Windowing	windowed carry/shift blocks	census-2026-07-18
+a772a45	robertkodra	2026-06-05	2266376930	-5077764	Windowing	windowed carry/shift blocks	census-2026-07-18
+7297f4f	fortunexbt	2026-06-02	2592370365	-50829	Windowing	windowed carry/shift blocks	census-2026-07-18
+9a81017	anshu4321	2026-06-05	2017979899	-2204458	Windowing	K2 transcript pair-compressor	census-2026-07-18
+0780f67	johnbxx	2026-06-05	2271454694	-107843356	Windowing	K2 transcript pair-compressor	census-2026-07-18
+cddd5df	pldallairedemers	2026-06-02	4156442508	-964247614	Windowing	two-jump inversion base	census-2026-07-18
+ab1b2d6	PhantasticUniverse	2026-06-19	1658770256	-1389940	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+bdb1d22	tob-joe	2026-06-19	1660163697	-8908303	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+35ceb01	BitWonka	2026-06-15	1674533568	-1533552	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+674d0d8	nasqret	2026-06-14	1678948830	-2076765	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+cf310ec	nasqret	2026-06-13	1681025595	-2058141	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+bb579bb	BitWonka	2026-06-13	1684982463	-12415650	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+6953d1b	BitWonka	2026-06-12	1697398113	-2254919	Codec / Encoding	trailmix / K5 codec	census-2026-07-18
+28fe2f2	alexander-sei	2026-06-19	1619139132	-22382556	Algorithmic Substitution	multiplier/squarer swap	census-2026-07-18
+b6d6f41	mpjunior92	2026-06-02	2750982708	-18235200	Algorithmic Substitution	multiplier/squarer swap	census-2026-07-18
+4cd1b2f	welttowelt	2026-06-25	1577850522	-3459	Verifier Search	nonce/island reroll	census-2026-07-18
+9b09c7e	welttowelt	2026-06-25	1577853981	-3459	Verifier Search	nonce/island reroll	census-2026-07-18
+d17af14	welttowelt	2026-06-25	1577857440	-8071	Verifier Search	nonce/island reroll	census-2026-07-18
+c07bf74	welttowelt	2026-06-21	1597338436	-40565	Verifier Search	nonce/island reroll	census-2026-07-18
+85ee6af	newjordan	2026-06-21	1597379001	-3477	Verifier Search	nonce/island reroll	census-2026-07-18
+42b56c6	welttowelt	2026-06-20	1607009088	-20952	Verifier Search	nonce/island reroll	census-2026-07-18
+94d44be	welttowelt	2026-06-20	1614059832	-2324	Verifier Search	nonce/island reroll	census-2026-07-18
+883f71a	nasqret	2026-06-19	1619068128	-27936	Verifier Search	nonce/island reroll	census-2026-07-18
+533ef88	gopikannappan	2026-06-19	1619096064	-12804	Verifier Search	nonce/island reroll	census-2026-07-18
+41df0b5	gopikannappan	2026-06-19	1619108868	-17460	Verifier Search	nonce/island reroll	census-2026-07-18
+3b05e0a	jackylee0424	2026-06-19	1619126328	-12804	Verifier Search	nonce/island reroll	census-2026-07-18
+eb089b1	gopikannappan	2026-06-19	1641521688	-9312	Verifier Search	nonce/island reroll	census-2026-07-18
+6a9db88	jackylee0424	2026-06-19	1643548212	-5820	Verifier Search	nonce/island reroll	census-2026-07-18
+fdb103e	jackylee0424	2026-06-19	1646656435	-46600	Verifier Search	nonce/island reroll	census-2026-07-18
+01560c7	gnuchev	2026-06-19	1651075822	-23320	Verifier Search	nonce/island reroll	census-2026-07-18
+70bf11a	rubenmarcus	2026-06-19	1658352828	-9328	Verifier Search	nonce/island reroll	census-2026-07-18
+5407215	jackylee0424	2026-06-19	1658739940	-30316	Verifier Search	nonce/island reroll	census-2026-07-18
+615ce9a	jackylee0424	2026-06-19	1660160196	-3501	Verifier Search	nonce/island reroll	census-2026-07-18
+a4db9a5	SamrendraS	2026-06-08	1820670235	-1437503	Verifier Search	nonce/island reroll	census-2026-07-18
+f43a73e	unknown	2026-05-30	10704574395	-47186700	Neutral / Mechanical	DUMMY_TOFFOLIS padding change	census-2026-07-18
+ed34c00	unknown	2026-05-30	10751761095	-1683300	Neutral / Mechanical	DUMMY_TOFFOLIS padding change	census-2026-07-18
+6f7c159	unknown	2026-05-30	10753444395	0	Neutral / Mechanical	DUMMY_TOFFOLIS padding change	census-2026-07-18
+15a06af	unknown	2026-05-29			Unscored bootstrap (DUMMY_TOFFOLIS)	unscored bootstrap	census-2026-07-18
+971d801	unknown	2026-05-30			Unscored bootstrap (DUMMY_TOFFOLIS)	unscored bootstrap	census-2026-07-18
+c55911f	unknown	2026-05-29			Unscored bootstrap (DUMMY_TOFFOLIS)	unscored bootstrap	census-2026-07-18
+ca1bf33	unknown	2026-05-30			Unscored bootstrap (DUMMY_TOFFOLIS)	unscored bootstrap	census-2026-07-18
