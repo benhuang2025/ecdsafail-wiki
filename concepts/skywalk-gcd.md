@@ -114,6 +114,7 @@ The multiply leg mirrors this, with `HEO_R2M` and a head batch. Carry ladders ar
 - [bdff8c8](../commits/bdff8c8.md) (30 Sep): sky9, `GO_CHUNK` 0-399:−1.
 - [f260d33](../commits/f260d33.md) (1 Oct): sky10, `HEO_FIT_K` 22, `ERASE_COMPARE` 22.
 - [84e78ce](../commits/84e78ce.md) (1 Oct): sky12, more `GO_CELLB/F` bands; 1174 × 944,682.
+- [86221ad](../commits/86221ad.md) (7 Oct): Skywalk is replaced by the route-free Leapfrog walk ([leapfrog.md](leapfrog.md)), 1243 × 804,160.
 
 ## Related concepts
 

@@ -1,6 +1,6 @@
 # Comparator and width truncation
 
-> Many operations in the circuit are done at more bits than a typical input needs. Two cases recur. A comparison that only has to recover one carry bit can usually be decided from the top few bits. A register in the GCD walk holds a value that shrinks round by round, so it can be made narrower as it goes. Truncation means doing the work on fewer bits. Each bit removed saves roughly one Toffoli per call site, every round, and sometimes a qubit. The cost is correctness on rare inputs: on a few inputs the narrowed operation gives the wrong answer. This is the most common change-type in the census: 149 of the original 404 commits and 33 of the 157 audited since, so 182 of 561.
+> Many operations in the circuit are done at more bits than a typical input needs. Two cases recur. A comparison that only has to recover one carry bit can usually be decided from the top few bits. A register in the GCD walk holds a value that shrinks round by round, so it can be made narrower as it goes. Truncation means doing the work on fewer bits. Each bit removed saves roughly one Toffoli per call site, every round, and sometimes a qubit. The cost is correctness on rare inputs: on a few inputs the narrowed operation gives the wrong answer. This is the most common change-type in the census: 149 of the original 404 commits and 35 of the 180 audited since, so 184 of 584.
 
 ## How it works in this circuit
 

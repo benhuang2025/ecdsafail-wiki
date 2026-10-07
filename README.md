@@ -4,23 +4,23 @@ Per-commit analysis of every accepted source commit in the ECDSA.Fail
 competition, the concept pages that explain the recurring mechanisms, and the
 census table built from them.
 
-Snapshot: **561 accepted commits (#883–1459), 29 May – 2 October 2026. Every
-commit has a note**, written from its diff on 2026-10-01/02 and checked with
+Snapshot: **584 accepted commits (#883–1482), 29 May – 7 October 2026. Every
+commit has a note**, written from its diff between 2026-10-01 and 2026-10-07 and checked with
 `check_reproduce.py`.
 - The family labels of the first 404 commits, through 18 July, come from the
   paper's census and are kept as published. Where a note's diff audit
   disagrees with the published label, the note's "Classification rationale"
   says so.
-- The 157 commits after 18 July were classified during this audit.
+- The 180 commits after 18 July were classified during this audit.
 
 ## Start here
 
 - To understand one commit, open `commits/<hash>.md`. Each note explains what
   the optimization is and why it still works. It ends with a Reproduce
-  appendix: the base to start from and the exact patch. The 35 nonce-only
+  appendix: the base to start from and the exact patch. The 41 nonce-only
   commits make no optimization, so their notes use a short format (see
   [NOTE_FORMAT.md](NOTE_FORMAT.md)): one paragraph and the patch.
-- For background, read `concepts/`. There are 17 pages, listed below.
+- For background, read `concepts/`. There are 18 pages, listed below.
 - To write or check a note, read [NOTE_FORMAT.md](NOTE_FORMAT.md).
 - **Fact-checked 2026-10-02.** Header numbers, dates, contestants, bases and hashes
   were machine-checked against the leaderboard and git. Every full-format note's
@@ -33,12 +33,12 @@ commit has a note**, written from its diff on 2026-10-01/02 and checked with
 
 | Path | What it is |
 | --- | --- |
-| `commits/<hash>.md` | One note per accepted commit, 561 in all. Format: [NOTE_FORMAT.md](NOTE_FORMAT.md). |
-| `concepts/*.md` | 17 concept pages. Commit notes link to them. |
-| `accepted-commit-census.tex` | **Generated.** The extended census ledger, 561 rows. It follows Supplemental Note C (`ecdsafail-supplemental-materials/appendices/tex/appendix-C-content.tex`), the ledger that arXiv v2 cites, and keeps its cross-references (`M:fig:family-census-tree`, Supplemental Note B). |
+| `commits/<hash>.md` | One note per accepted commit, 584 in all. Format: [NOTE_FORMAT.md](NOTE_FORMAT.md). |
+| `concepts/*.md` | 18 concept pages. Commit notes link to them. |
+| `accepted-commit-census.tex` | **Generated.** The extended census ledger, 584 rows. It follows Supplemental Note C (`ecdsafail-supplemental-materials/appendices/tex/appendix-C-content.tex`), the ledger that arXiv v2 cites, and keeps its cross-references (`M:fig:family-census-tree`, Supplemental Note B). |
 | `sources/supplemental-note-C-2026-08-28.tex` | Frozen copy of Supplemental Note C as of supplemental-materials commit `945c2d2` (28 Aug). Its 404 rows are identical to the census in arXiv v2 (`arXiv-2609.09582v2/unused/09-appendix-census-of-source-commits.tex`) and in the older `ecdsafail2` draft. |
 | `data/census.tsv` | The 404 original rows, parsed from the frozen tex. |
-| `data/new-classification.tsv` | Family, change-type and a one-line summary for each of the 157 commits after 18 July. |
+| `data/new-classification.tsv` | Family, change-type and a one-line summary for each of the 180 commits after 18 July. |
 | `data/bases.tsv` | The base each note rebuilds from. It is often not the git parent. |
 | `data/leaderboard-<date>.tsv` | Snapshot of `ecdsafail submissions --all`, all statuses. |
 | `tools/` | Scripts, listed below. |
@@ -48,7 +48,7 @@ commit has a note**, written from its diff on 2026-10-01/02 and checked with
 | Group | Pages |
 | --- | --- |
 | Basics | [scoring-and-validation](concepts/scoring-and-validation.md), [nonce-island-and-lambda](concepts/nonce-island-and-lambda.md), [peak-qubits-and-budgets](concepts/peak-qubits-and-budgets.md) |
-| Inversion architectures | [kaliski-almost-inverse](concepts/kaliski-almost-inverse.md) (29 May – 2 Jun), [dialog-gcd-early](concepts/dialog-gcd-early.md) (2 – 19 Jun), [trailmix-jump-gcd](concepts/trailmix-jump-gcd.md) (19 Jun – 21 Aug), [pingpong-division](concepts/pingpong-division.md) (21 Aug – 29 Sep), [skywalk-gcd](concepts/skywalk-gcd.md) (from 29 Sep) |
+| Inversion architectures | [kaliski-almost-inverse](concepts/kaliski-almost-inverse.md) (29 May – 2 Jun), [dialog-gcd-early](concepts/dialog-gcd-early.md) (2 – 19 Jun), [trailmix-jump-gcd](concepts/trailmix-jump-gcd.md) (19 Jun – 21 Aug), [pingpong-division](concepts/pingpong-division.md) (21 Aug – 29 Sep), [skywalk-gcd](concepts/skywalk-gcd.md) (29 Sep – 7 Oct), [leapfrog](concepts/leapfrog.md) (from 7 Oct) |
 | Era machinery | [transcript-codecs](concepts/transcript-codecs.md) (June transcript packing), [trailmix-schedules-and-reserves](concepts/trailmix-schedules-and-reserves.md) (trailmix tables and qubit reserves) |
 | Arithmetic | [adders-and-carries](concepts/adders-and-carries.md), [comparator-and-width-truncation](concepts/comparator-and-width-truncation.md), [modular-fold](concepts/modular-fold.md), [squaring-and-karatsuba](concepts/squaring-and-karatsuba.md) |
 | Qubits and gates | [measurement-uncompute](concepts/measurement-uncompute.md), [venting-and-wire-loans](concepts/venting-and-wire-loans.md), [dead-gate-strip](concepts/dead-gate-strip.md) |
@@ -126,6 +126,9 @@ there first.
   - `897dda2`: ping-pong fixed-depth division replaces the GCD inverse,
     Δ −218,966,453, the largest delta in the extension.
   - `8ee337c`: GCD Skywalk, 1250 → 1174 qubits.
+  - `86221ad`: Leapfrog, a route-free multi-step 2-adic walk that replaces
+    Skywalk. It trades qubits for Toffoli (1172 → 1243 qubits, 945k → 804k
+    Toffoli), Δ −107,896,130, the first score below one billion.
 - New change-type **Uncompute Strategy → deferred coherent uncompute**:
   `b788efc` keeps the carries alive until the inverse pass.
 - Peak-budget or vent-cap retunes, which trade qubits against Toffoli, are
@@ -149,7 +152,7 @@ there first.
 - 10 rows that said `unknown` now carry the contestant's name from the
   leaderboard. The 4 unscored bootstrap rows stay `unknown`.
 - Scores and Δ for the original 404 rows are kept as published, from the
-  2 July ledger. The 2 October leaderboard snapshot differs on four Δ values:
+  2 July ledger. The 7 October leaderboard snapshot (as did the 2 October one) differs on four Δ values:
   - `6bf73fe` is now 0 instead of −17,461,520.
   - `422f21d` is now 0 instead of −50,073,984.
   - `6f7c159` is now −5,430,000 instead of 0.

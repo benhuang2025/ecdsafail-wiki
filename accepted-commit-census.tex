@@ -8,11 +8,11 @@ expanded to one row per commit and extended past its 18 July interval.
 Official operating points---\emph{Score}~$=$
 average executed Toffoli $\times$ peak qubits (lower is better) and $\Delta$, the
 score change versus the prior public frontier---are joined from the ecdsafail
-leaderboard; they are not in the git history itself. The ledger covers $561$
-accepted commits through 2 October. The first $404$, through 18 July,
+leaderboard; they are not in the git history itself. The ledger covers $584$
+accepted commits through 7 October. The first $404$, through 18 July,
 are the census of \Cref{M:fig:family-census-tree}, with labels and scores as
-published (reconciled against the 2 July ledger snapshot). The $157$ later commits
-are scored from the 2026-10-02 leaderboard snapshot
+published (reconciled against the 2 July ledger snapshot). The $180$ later commits
+are scored from the 2026-10-07 leaderboard snapshot
 and lie outside the interval of \Cref{M:fig:family-census-tree}. From 6 August the
 contest records an accepted solution as a ``Validate submission'' commit instead of
 ``Accept submission''; both count as accepted here. $4$ commits are the
@@ -35,9 +35,9 @@ Substitution).
 {\small
 \setlength{\tabcolsep}{4pt}
 \begin{longtable}{@{}lllrr@{}}
-\caption{Competition optimization census: all $561$ accepted source commits
-(\#883--1459) through 2 October, classified by primary family,
-with official leaderboard score and frontier delta where available. $557$
+\caption{Competition optimization census: all $584$ accepted source commits
+(\#883--1482) through 7 October, classified by primary family,
+with official leaderboard score and frontier delta where available. $580$
 scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \toprule
 \textbf{Commit} & \textbf{Contestant} & \textbf{Date} & \textbf{Score} & \textbf{$\Delta$}\\
@@ -54,8 +54,10 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \bottomrule
 \endlastfoot
 \addlinespace[2pt]
-\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Dead-Code and Redundancy Elimination}~\small(329)}\\[1pt]
-\multicolumn{5}{@{}l}{\quad\itshape comparator/width truncation \small(182)}\\
+\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Dead-Code and Redundancy Elimination}~\small(336)}\\[1pt]
+\multicolumn{5}{@{}l}{\quad\itshape comparator/width truncation \small(184)}\\
+\texttt{308a6ea} & jackylee0424 & 2026-10-07 & $992{,}593{,}820$ & $-4{,}938{,}540$\\
+\texttt{7c1a800} & dysnasia & 2026-10-04 & $1{,}107{,}981{,}783$ & $-8{,}211$\\
 \texttt{1c54ce2} & dysnasia & 2026-10-01 & $1{,}109{,}024{,}970$ & $-16{,}436$\\
 \texttt{84e78ce} & dysnasia & 2026-10-01 & $1{,}109{,}056{,}668$ & $-151{,}446$\\
 \texttt{f260d33} & dysnasia & 2026-10-01 & $1{,}109{,}208{,}114$ & $-108{,}008$\\
@@ -238,6 +240,65 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \texttt{b86e789} & Gajesh2007 & 2026-06-01 & $6{,}865{,}358{,}936$ & $-96{,}285{,}300$\\
 \texttt{6da9882} & Gajesh2007 & 2026-06-01 & $6{,}964{,}659{,}240$ & $-110{,}103{,}840$\\
 \texttt{36e8578} & Gajesh2007 & 2026-06-01 & $7{,}077{,}100{,}800$ & $-677{,}010{,}180$\\
+\multicolumn{5}{@{}l}{\quad\itshape fold/carry truncation \small(58)}\\
+\texttt{58229f8} & jackylee0424 & 2026-10-07 & $997{,}532{,}360$ & $-912{,}362$\\
+\texttt{83d0f70} & dysnasia & 2026-10-04 & $1{,}108{,}001{,}724$ & $-16{,}422$\\
+\texttt{6f2b3a6} & dysnasia & 2026-10-03 & $1{,}108{,}057{,}594$ & $-54{,}004$\\
+\texttt{f904fca} & dysnasia & 2026-10-03 & $1{,}108{,}115{,}120$ & $-41{,}090$\\
+\texttt{f79a8d1} & dysnasia & 2026-10-02 & $1{,}108{,}163{,}254$ & $-63{,}396$\\
+\texttt{9556f90} & dysnasia & 2026-10-02 & $1{,}108{,}873{,}524$ & $-85{,}702$\\
+\texttt{cc530e2} & dysnasia & 2026-10-02 & $1{,}108{,}970{,}966$ & $-44{,}612$\\
+\texttt{03d9ecd} & moscowchill & 2026-09-27 & $1{,}111{,}308{,}750$ & $-42{,}500$\\
+\texttt{0a06121} & dysnasia & 2026-09-26 & $1{,}117{,}757{,}241$ & $-454{,}113$\\
+\texttt{291d749} & dysnasia & 2026-09-25 & $1{,}119{,}250{,}935$ & $-130{,}104$\\
+\texttt{9700396} & jackylee0424 & 2026-09-11 & $1{,}137{,}367{,}864$ & $-55{,}542$\\
+\texttt{a39e07e} & odinfree & 2026-09-09 & $1{,}137{,}423{,}406$ & $-152{,}474$\\
+\texttt{1196b9f} & nipzu & 2026-09-05 & $1{,}139{,}101{,}740$ & $-1{,}887{,}408$\\
+\texttt{708d567} & REgonLevy & 2026-08-31 & $1{,}141{,}873{,}584$ & $-113{,}760$\\
+\texttt{edeed3f} & REgonLevy & 2026-08-28 & $1{,}143{,}784{,}158$ & $-49{,}374$\\
+\texttt{9805dee} & moscowchill & 2026-08-22 & $1{,}175{,}445{,}612$ & $-39{,}618$\\
+\texttt{787eaa8} & johnbxx & 2026-08-22 & $1{,}182{,}644{,}586$ & $-3{,}257{,}622$\\
+\texttt{d1bb787} & benhuang2025 & 2026-08-21 & $1{,}199{,}970{,}432$ & $-101{,}188$\\
+\texttt{8e8f047} & RealAdii & 2026-08-21 & $1{,}245{,}521{,}640$ & $-1{,}870{,}440$\\
+\texttt{37b0c9f} & RealAdii & 2026-08-21 & $1{,}247{,}392{,}080$ & $-917{,}400$\\
+\texttt{8cdc0e6} & Akashneelesh & 2026-08-21 & $1{,}255{,}714{,}680$ & $-985{,}645$\\
+\texttt{f6ce76d} & BitWonka & 2026-06-20 & $1{,}597{,}839{,}124$ & $-229{,}482$\\
+\texttt{3df690f} & gopikannappan & 2026-06-20 & $1{,}607{,}030{,}040$ & $-1{,}870{,}580$\\
+\texttt{31421df} & jieyilong & 2026-06-20 & $1{,}616{,}813{,}772$ & $-1{,}877{,}220$\\
+\texttt{f265bb1} & jackylee0424 & 2026-06-19 & $1{,}646{,}703{,}035$ & $-9{,}320$\\
+\texttt{550595a} & jackylee0424 & 2026-06-19 & $1{,}649{,}234{,}708$ & $-1{,}166$\\
+\texttt{ed2715f} & gnuchev & 2026-06-19 & $1{,}649{,}235{,}874$ & $-461{,}736$\\
+\texttt{764afda} & gnuchev & 2026-06-19 & $1{,}651{,}099{,}142$ & $-39{,}644$\\
+\texttt{916c0e3} & DavetheSlayer & 2026-06-19 & $1{,}651{,}138{,}786$ & $-37{,}312$\\
+\texttt{bc2334a} & BitWonka & 2026-06-19 & $1{,}651{,}176{,}098$ & $-5{,}923{,}280$\\
+\texttt{fd89e69} & jieyilong & 2026-06-19 & $1{,}658{,}681{,}640$ & $-26{,}818$\\
+\texttt{a9ac507} & jieyilong & 2026-06-19 & $1{,}658{,}708{,}458$ & $-26{,}818$\\
+\texttt{c9c03de} & jackylee0424 & 2026-06-19 & $1{,}658{,}735{,}276$ & $-4{,}664$\\
+\texttt{98e1322} & zuiris & 2026-06-11 & $1{,}709{,}962{,}980$ & $-3{,}134{,}180$\\
+\texttt{c8f4536} & BitWonka & 2026-06-07 & $1{,}939{,}939{,}583$ & $-666{,}570$\\
+\texttt{11ceae2} & welttowelt & 2026-06-06 & $1{,}960{,}613{,}655$ & $-7{,}278{,}040$\\
+\texttt{004ffc0} & zuiris & 2026-06-06 & $1{,}970{,}059{,}399$ & $-1{,}350{,}888$\\
+\texttt{69bd3d7} & Gajesh2007 & 2026-06-06 & $1{,}971{,}410{,}287$ & $-5{,}931{,}008$\\
+\texttt{21fbfc7} & robertkodra & 2026-06-05 & $2{,}033{,}268{,}600$ & $-3{,}418{,}800$\\
+\texttt{66c6dac} & mpjunior92 & 2026-06-05 & $2{,}054{,}166{,}840$ & $-1{,}388{,}640$\\
+\texttt{438ef00} & mpjunior92 & 2026-06-05 & $2{,}089{,}123{,}794$ & $-2{,}247{,}132$\\
+\texttt{5174a69} & PhantasticUniverse & 2026-06-05 & $2{,}131{,}446{,}850$ & $-1{,}367{,}760$\\
+\texttt{657ae28} & PhantasticUniverse & 2026-06-05 & $2{,}221{,}196{,}370$ & $-1{,}367{,}760$\\
+\texttt{cc5584e} & PhantasticUniverse & 2026-06-05 & $2{,}379{,}298{,}050$ & $-2{,}084{,}400$\\
+\texttt{40574d3} & mpjunior92 & 2026-06-02 & $2{,}616{,}750{,}555$ & $-3{,}693{,}942$\\
+\texttt{7787f81} & mpjunior92 & 2026-06-02 & $2{,}620{,}444{,}497$ & $-10{,}554{,}777$\\
+\texttt{f8a36ba} & Gajesh2007 & 2026-06-02 & $2{,}893{,}538{,}028$ & $-227{,}470{,}872$\\
+\texttt{115ab0e} & xadenryan & 2026-06-02 & $5{,}166{,}788{,}002$ & $-32{,}096$\\
+\texttt{61bdeb0} & antojoseph & 2026-06-02 & $5{,}180{,}304{,}536$ & $-48{,}576$\\
+\texttt{8d83e8e} & 0xpg & 2026-06-02 & $5{,}182{,}432{,}650$ & $-479{,}925$\\
+\texttt{3ab1c72} & anupsv & 2026-06-02 & $5{,}548{,}420{,}786$ & $-1{,}108{,}320$\\
+\texttt{3f534f2} & Gajesh2007 & 2026-06-02 & $5{,}549{,}529{,}106$ & $-12{,}300{,}043$\\
+\texttt{1b913c5} & anupsv & 2026-06-01 & $5{,}585{,}083{,}088$ & $-12{,}246{,}936$\\
+\texttt{ba05d3a} & Gajesh2007 & 2026-06-01 & $5{,}686{,}868{,}426$ & $-195{,}285{,}984$\\
+\texttt{d6551e8} & solimander & 2026-06-01 & $5{,}882{,}154{,}410$ & $-52{,}933{,}825$\\
+\texttt{a97b4e9} & Gajesh2007 & 2026-06-01 & $6{,}508{,}057{,}349$ & $-18{,}430{,}438$\\
+\texttt{2abe7f4} & Gajesh2007 & 2026-06-01 & $6{,}564{,}355{,}387$ & $-52{,}455{,}862$\\
+\texttt{1e18b4d} & Gajesh2007 & 2026-06-01 & $6{,}626{,}924{,}669$ & $-137{,}992{,}767$\\
 \multicolumn{5}{@{}l}{\quad\itshape iteration/threshold tuning \small(55)}\\
 \texttt{64f9aaa} & odinfree & 2026-08-25 & $1{,}150{,}873{,}758$ & $-2{,}948{,}514$\\
 \texttt{4eb93cb} & gnuchev & 2026-08-23 & $1{,}163{,}831{,}339$ & $-3{,}822{,}785$\\
@@ -294,60 +355,6 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \texttt{1c400f2} & chainyoda & 2026-05-31 & $10{,}318{,}536{,}120$ & $-3{,}910{,}352$\\
 \texttt{a444668} & Gajesh2007 & 2026-05-31 & $10{,}397{,}877{,}812$ & $-690{,}540$\\
 \texttt{9bd0748} & Gajesh2007 & 2026-05-31 & $10{,}398{,}568{,}352$ & $-173{,}734{,}448$\\
-\multicolumn{5}{@{}l}{\quad\itshape fold/carry truncation \small(53)}\\
-\texttt{9556f90} & dysnasia & 2026-10-02 & $1{,}108{,}873{,}524$ & $-85{,}702$\\
-\texttt{cc530e2} & dysnasia & 2026-10-02 & $1{,}108{,}970{,}966$ & $-44{,}612$\\
-\texttt{03d9ecd} & moscowchill & 2026-09-27 & $1{,}111{,}308{,}750$ & $-42{,}500$\\
-\texttt{0a06121} & dysnasia & 2026-09-26 & $1{,}117{,}757{,}241$ & $-454{,}113$\\
-\texttt{291d749} & dysnasia & 2026-09-25 & $1{,}119{,}250{,}935$ & $-130{,}104$\\
-\texttt{9700396} & jackylee0424 & 2026-09-11 & $1{,}137{,}367{,}864$ & $-55{,}542$\\
-\texttt{a39e07e} & odinfree & 2026-09-09 & $1{,}137{,}423{,}406$ & $-152{,}474$\\
-\texttt{1196b9f} & nipzu & 2026-09-05 & $1{,}139{,}101{,}740$ & $-1{,}887{,}408$\\
-\texttt{708d567} & REgonLevy & 2026-08-31 & $1{,}141{,}873{,}584$ & $-113{,}760$\\
-\texttt{edeed3f} & REgonLevy & 2026-08-28 & $1{,}143{,}784{,}158$ & $-49{,}374$\\
-\texttt{9805dee} & moscowchill & 2026-08-22 & $1{,}175{,}445{,}612$ & $-39{,}618$\\
-\texttt{787eaa8} & johnbxx & 2026-08-22 & $1{,}182{,}644{,}586$ & $-3{,}257{,}622$\\
-\texttt{d1bb787} & benhuang2025 & 2026-08-21 & $1{,}199{,}970{,}432$ & $-101{,}188$\\
-\texttt{8e8f047} & RealAdii & 2026-08-21 & $1{,}245{,}521{,}640$ & $-1{,}870{,}440$\\
-\texttt{37b0c9f} & RealAdii & 2026-08-21 & $1{,}247{,}392{,}080$ & $-917{,}400$\\
-\texttt{8cdc0e6} & Akashneelesh & 2026-08-21 & $1{,}255{,}714{,}680$ & $-985{,}645$\\
-\texttt{f6ce76d} & BitWonka & 2026-06-20 & $1{,}597{,}839{,}124$ & $-229{,}482$\\
-\texttt{3df690f} & gopikannappan & 2026-06-20 & $1{,}607{,}030{,}040$ & $-1{,}870{,}580$\\
-\texttt{31421df} & jieyilong & 2026-06-20 & $1{,}616{,}813{,}772$ & $-1{,}877{,}220$\\
-\texttt{f265bb1} & jackylee0424 & 2026-06-19 & $1{,}646{,}703{,}035$ & $-9{,}320$\\
-\texttt{550595a} & jackylee0424 & 2026-06-19 & $1{,}649{,}234{,}708$ & $-1{,}166$\\
-\texttt{ed2715f} & gnuchev & 2026-06-19 & $1{,}649{,}235{,}874$ & $-461{,}736$\\
-\texttt{764afda} & gnuchev & 2026-06-19 & $1{,}651{,}099{,}142$ & $-39{,}644$\\
-\texttt{916c0e3} & DavetheSlayer & 2026-06-19 & $1{,}651{,}138{,}786$ & $-37{,}312$\\
-\texttt{bc2334a} & BitWonka & 2026-06-19 & $1{,}651{,}176{,}098$ & $-5{,}923{,}280$\\
-\texttt{fd89e69} & jieyilong & 2026-06-19 & $1{,}658{,}681{,}640$ & $-26{,}818$\\
-\texttt{a9ac507} & jieyilong & 2026-06-19 & $1{,}658{,}708{,}458$ & $-26{,}818$\\
-\texttt{c9c03de} & jackylee0424 & 2026-06-19 & $1{,}658{,}735{,}276$ & $-4{,}664$\\
-\texttt{98e1322} & zuiris & 2026-06-11 & $1{,}709{,}962{,}980$ & $-3{,}134{,}180$\\
-\texttt{c8f4536} & BitWonka & 2026-06-07 & $1{,}939{,}939{,}583$ & $-666{,}570$\\
-\texttt{11ceae2} & welttowelt & 2026-06-06 & $1{,}960{,}613{,}655$ & $-7{,}278{,}040$\\
-\texttt{004ffc0} & zuiris & 2026-06-06 & $1{,}970{,}059{,}399$ & $-1{,}350{,}888$\\
-\texttt{69bd3d7} & Gajesh2007 & 2026-06-06 & $1{,}971{,}410{,}287$ & $-5{,}931{,}008$\\
-\texttt{21fbfc7} & robertkodra & 2026-06-05 & $2{,}033{,}268{,}600$ & $-3{,}418{,}800$\\
-\texttt{66c6dac} & mpjunior92 & 2026-06-05 & $2{,}054{,}166{,}840$ & $-1{,}388{,}640$\\
-\texttt{438ef00} & mpjunior92 & 2026-06-05 & $2{,}089{,}123{,}794$ & $-2{,}247{,}132$\\
-\texttt{5174a69} & PhantasticUniverse & 2026-06-05 & $2{,}131{,}446{,}850$ & $-1{,}367{,}760$\\
-\texttt{657ae28} & PhantasticUniverse & 2026-06-05 & $2{,}221{,}196{,}370$ & $-1{,}367{,}760$\\
-\texttt{cc5584e} & PhantasticUniverse & 2026-06-05 & $2{,}379{,}298{,}050$ & $-2{,}084{,}400$\\
-\texttt{40574d3} & mpjunior92 & 2026-06-02 & $2{,}616{,}750{,}555$ & $-3{,}693{,}942$\\
-\texttt{7787f81} & mpjunior92 & 2026-06-02 & $2{,}620{,}444{,}497$ & $-10{,}554{,}777$\\
-\texttt{f8a36ba} & Gajesh2007 & 2026-06-02 & $2{,}893{,}538{,}028$ & $-227{,}470{,}872$\\
-\texttt{115ab0e} & xadenryan & 2026-06-02 & $5{,}166{,}788{,}002$ & $-32{,}096$\\
-\texttt{61bdeb0} & antojoseph & 2026-06-02 & $5{,}180{,}304{,}536$ & $-48{,}576$\\
-\texttt{8d83e8e} & 0xpg & 2026-06-02 & $5{,}182{,}432{,}650$ & $-479{,}925$\\
-\texttt{3ab1c72} & anupsv & 2026-06-02 & $5{,}548{,}420{,}786$ & $-1{,}108{,}320$\\
-\texttt{3f534f2} & Gajesh2007 & 2026-06-02 & $5{,}549{,}529{,}106$ & $-12{,}300{,}043$\\
-\texttt{1b913c5} & anupsv & 2026-06-01 & $5{,}585{,}083{,}088$ & $-12{,}246{,}936$\\
-\texttt{ba05d3a} & Gajesh2007 & 2026-06-01 & $5{,}686{,}868{,}426$ & $-195{,}285{,}984$\\
-\texttt{d6551e8} & solimander & 2026-06-01 & $5{,}882{,}154{,}410$ & $-52{,}933{,}825$\\
-\texttt{a97b4e9} & Gajesh2007 & 2026-06-01 & $6{,}508{,}057{,}349$ & $-18{,}430{,}438$\\
-\texttt{2abe7f4} & Gajesh2007 & 2026-06-01 & $6{,}564{,}355{,}387$ & $-52{,}455{,}862$\\
-\texttt{1e18b4d} & Gajesh2007 & 2026-06-01 & $6{,}626{,}924{,}669$ & $-137{,}992{,}767$\\
 \multicolumn{5}{@{}l}{\quad\itshape dead-gate/self-inverse removal \small(39)}\\
 \texttt{800ba12} & TongchenShen-zdxlz & 2026-09-30 & $1{,}110{,}074{,}526$ & $-327{,}546$\\
 \texttt{17bc487} & jackylee0424 & 2026-09-28 & $1{,}111{,}307{,}500$ & $-1{,}250$\\
@@ -389,8 +396,12 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \texttt{c8e508f} & Gajesh2007 & 2026-06-01 & $8{,}367{,}457{,}560$ & $-5{,}421{,}570$\\
 \texttt{a16788e} & vineetguptadev & 2026-05-30 & $10{,}579{,}872{,}520$ & $-118{,}867{,}397$\\
 \addlinespace[2pt]
-\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Register and Scratch Allocation}~\small(83)}\\[1pt]
-\multicolumn{5}{@{}l}{\quad\itshape ancilla-lifetime / venting \small(52)}\\
+\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Register and Scratch Allocation}~\small(89)}\\[1pt]
+\multicolumn{5}{@{}l}{\quad\itshape ancilla-lifetime / venting \small(56)}\\
+\texttt{0c373cd} & dysnasia & 2026-10-06 & $1{,}107{,}467{,}010$ & $-110{,}459$\\
+\texttt{a6034cb} & dysnasia & 2026-10-06 & $1{,}107{,}577{,}469$ & $-121{,}784$\\
+\texttt{05161d3} & dysnasia & 2026-10-06 & $1{,}107{,}790{,}591$ & $-142{,}029$\\
+\texttt{9db31da} & jackylee0424 & 2026-10-05 & $1{,}107{,}932{,}620$ & $-43{,}298$\\
 \texttt{799153a} & dysnasia & 2026-10-02 & $1{,}108{,}401{,}576$ & $-460{,}208$\\
 \texttt{265a9e9} & dysnasia & 2026-09-27 & $1{,}113{,}027{,}500$ & $-1{,}593{,}484$\\
 \texttt{5526766} & odinfree & 2026-08-28 & $1{,}142{,}168{,}096$ & $-1{,}616{,}062$\\
@@ -470,7 +481,9 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \texttt{92a247e} & mpjunior92 & 2026-06-02 & $2{,}539{,}526{,}878$ & $-35{,}464{,}622$\\
 \texttt{a8688f8} & josusanmartin & 2026-06-02 & $5{,}166{,}017{,}698$ & $-770{,}304$\\
 \texttt{666b591} & Gajesh2007 & 2026-05-31 & $10{,}347{,}216{,}548$ & $-48{,}643{,}804$\\
-\multicolumn{5}{@{}l}{\quad\itshape in-place mutation \small(5)}\\
+\multicolumn{5}{@{}l}{\quad\itshape in-place mutation \small(7)}\\
+\texttt{3161bd2} & jackylee0424 & 2026-10-03 & $1{,}108{,}039{,}260$ & $-12{,}464$\\
+\texttt{284e2b0} & dysnasia & 2026-10-02 & $1{,}108{,}226{,}650$ & $-174{,}926$\\
 \texttt{a4b4125} & jackylee0424 & 2026-09-28 & $1{,}111{,}172{,}850$ & $-134{,}650$\\
 \texttt{8bba91b} & dysnasia & 2026-09-27 & $1{,}111{,}356{,}250$ & $-146{,}250$\\
 \texttt{fe29b53} & josusanmartin & 2026-06-02 & $2{,}615{,}281{,}619$ & $-237{,}622$\\
@@ -507,8 +520,10 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \multicolumn{5}{@{}l}{\quad\itshape deferred coherent uncompute \small(1)}\\
 \texttt{b788efc} & dysnasia & 2026-09-25 & $1{,}119{,}381{,}039$ & $-78{,}813$\\
 \addlinespace[2pt]
-\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Constant Propagation and Classical Specialization}~\small(23)}\\[1pt]
-\multicolumn{5}{@{}l}{\quad\itshape host-derived / classical specialization \small(23)}\\
+\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Constant Propagation and Classical Specialization}~\small(25)}\\[1pt]
+\multicolumn{5}{@{}l}{\quad\itshape host-derived / classical specialization \small(25)}\\
+\texttt{158bf21} & dysnasia & 2026-10-06 & $1{,}107{,}710{,}963$ & $-79{,}628$\\
+\texttt{ed31e8e} & dysnasia & 2026-10-04 & $1{,}108{,}018{,}146$ & $-21{,}114$\\
 \texttt{0642f52} & dysnasia & 2026-09-30 & $1{,}110{,}495{,}992$ & $-18{,}784$\\
 \texttt{902ec7b} & dysnasia & 2026-09-26 & $1{,}118{,}211{,}354$ & $-1{,}039{,}581$\\
 \texttt{33e2b34} & moscowchill & 2026-08-21 & $1{,}207{,}502{,}621$ & $-7{,}674$\\
@@ -557,8 +572,9 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \texttt{36a2989} & Gajesh2007 & 2026-06-01 & $7{,}765{,}663{,}290$ & $-601{,}794{,}270$\\
 \texttt{9bcc27d} & Gajesh2007 & 2026-05-31 & $9{,}604{,}339{,}032$ & $-714{,}197{,}088$\\
 \addlinespace[2pt]
-\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Strength Reduction}~\small(15)}\\[1pt]
-\multicolumn{5}{@{}l}{\quad\itshape fast-adder reroute \small(10)}\\
+\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Strength Reduction}~\small(16)}\\[1pt]
+\multicolumn{5}{@{}l}{\quad\itshape fast-adder reroute \small(11)}\\
+\texttt{9440086} & mochimodev & 2026-10-07 & $998{,}444{,}722$ & $-1{,}126{,}158$\\
 \texttt{cc409de} & odinfree & 2026-08-26 & $1{,}147{,}893{,}594$ & $-77{,}226$\\
 \texttt{2a87f33} & Gajesh2007 & 2026-06-09 & $1{,}776{,}720{,}670$ & $-2{,}983{,}770$\\
 \texttt{82f7a95} & newjordan & 2026-06-07 & $1{,}912{,}381{,}024$ & $-4{,}074{,}720$\\
@@ -589,6 +605,18 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \multicolumn{5}{@{}l}{\quad\itshape two-jump inversion base \small(1)}\\
 \texttt{cddd5df} & pldallairedemers & 2026-06-02 & $4{,}156{,}442{,}508$ & $-964{,}247{,}614$\\
 \addlinespace[2pt]
+\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Algorithmic Substitution}~\small(8)}\\[1pt]
+\multicolumn{5}{@{}l}{\quad\itshape multiplier/squarer swap \small(5)}\\
+\texttt{e50a36f} & Rossnkama & 2026-09-08 & $1{,}137{,}575{,}880$ & $-1{,}525{,}860$\\
+\texttt{1f99759} & odinfree & 2026-08-26 & $1{,}147{,}970{,}820$ & $-2{,}902{,}938$\\
+\texttt{d919bc6} & mochimodev & 2026-08-23 & $1{,}156{,}903{,}673$ & $-4{,}447{,}532$\\
+\texttt{28fe2f2} & alexander-sei & 2026-06-19 & $1{,}619{,}139{,}132$ & $-22{,}382{,}556$\\
+\texttt{b6d6f41} & mpjunior92 & 2026-06-02 & $2{,}750{,}982{,}708$ & $-18{,}235{,}200$\\
+\multicolumn{5}{@{}l}{\quad\itshape inversion/division algorithm swap \small(3)}\\
+\texttt{86221ad} & BitWonka & 2026-10-07 & $999{,}570{,}880$ & $-107{,}896{,}130$\\
+\texttt{8ee337c} & mochimodev & 2026-09-29 & $1{,}110{,}897{,}500$ & $-201{,}250$\\
+\texttt{897dda2} & teddyjfpender & 2026-08-21 & $1{,}258{,}525{,}947$ & $-218{,}966{,}453$\\
+\addlinespace[2pt]
 \multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Codec / Encoding}~\small(7)}\\[1pt]
 \multicolumn{5}{@{}l}{\quad\itshape trailmix / K5 codec \small(7)}\\
 \texttt{ab1b2d6} & PhantasticUniverse & 2026-06-19 & $1{,}658{,}770{,}256$ & $-1{,}389{,}940$\\
@@ -599,19 +627,14 @@ scored; $4$ unscored bootstrap commits.}\label{tab:supp-census}\\
 \texttt{bb579bb} & BitWonka & 2026-06-13 & $1{,}684{,}982{,}463$ & $-12{,}415{,}650$\\
 \texttt{6953d1b} & BitWonka & 2026-06-12 & $1{,}697{,}398{,}113$ & $-2{,}254{,}919$\\
 \addlinespace[2pt]
-\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Algorithmic Substitution}~\small(7)}\\[1pt]
-\multicolumn{5}{@{}l}{\quad\itshape multiplier/squarer swap \small(5)}\\
-\texttt{e50a36f} & Rossnkama & 2026-09-08 & $1{,}137{,}575{,}880$ & $-1{,}525{,}860$\\
-\texttt{1f99759} & odinfree & 2026-08-26 & $1{,}147{,}970{,}820$ & $-2{,}902{,}938$\\
-\texttt{d919bc6} & mochimodev & 2026-08-23 & $1{,}156{,}903{,}673$ & $-4{,}447{,}532$\\
-\texttt{28fe2f2} & alexander-sei & 2026-06-19 & $1{,}619{,}139{,}132$ & $-22{,}382{,}556$\\
-\texttt{b6d6f41} & mpjunior92 & 2026-06-02 & $2{,}750{,}982{,}708$ & $-18{,}235{,}200$\\
-\multicolumn{5}{@{}l}{\quad\itshape inversion/division algorithm swap \small(2)}\\
-\texttt{8ee337c} & mochimodev & 2026-09-29 & $1{,}110{,}897{,}500$ & $-201{,}250$\\
-\texttt{897dda2} & teddyjfpender & 2026-08-21 & $1{,}258{,}525{,}947$ & $-218{,}966{,}453$\\
-\addlinespace[2pt]
-\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Verifier Search}~\small(36)}\\[1pt]
-\multicolumn{5}{@{}l}{\quad\itshape nonce/island reroll \small(36)}\\
+\multicolumn{5}{@{}l}{\rule{0pt}{2.6ex}\textbf{Verifier Search}~\small(42)}\\[1pt]
+\multicolumn{5}{@{}l}{\quad\itshape nonce/island reroll \small(42)}\\
+\texttt{a1e2b66} & dysnasia & 2026-10-06 & $1{,}107{,}699{,}253$ & $-11{,}710$\\
+\texttt{e3fd358} & dysnasia & 2026-10-04 & $1{,}107{,}975{,}918$ & $-5{,}865$\\
+\texttt{9eace63} & dysnasia & 2026-10-04 & $1{,}107{,}989{,}994$ & $-11{,}730$\\
+\texttt{d6dd7ef} & dysnasia & 2026-10-03 & $1{,}108{,}051{,}724$ & $-5{,}870$\\
+\texttt{cf13eba} & dysnasia & 2026-10-03 & $1{,}108{,}111{,}598$ & $-3{,}522$\\
+\texttt{d1608a3} & dysnasia & 2026-10-02 & $1{,}108{,}156{,}210$ & $-7{,}044$\\
 \texttt{36d313e} & dysnasia & 2026-10-02 & $1{,}108{,}861{,}784$ & $-11{,}740$\\
 \texttt{b997d0a} & dysnasia & 2026-10-02 & $1{,}108{,}959{,}226$ & $-11{,}740$\\
 \texttt{1c185d1} & dysnasia & 2026-10-02 & $1{,}109{,}015{,}578$ & $-3{,}522$\\

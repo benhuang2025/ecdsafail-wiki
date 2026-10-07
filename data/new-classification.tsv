@@ -156,3 +156,26 @@ b997d0a	Verifier Search	nonce/island reroll	sky14 tail-nonce re-roll only (14000
 9556f90	Dead-Code and Redundancy Elimination	fold/carry truncation	sky15: fold profile 44:0/38:-1/25:-5, FOLD_WIDEN 144, FIT_K and ERASE_COMPARE 21
 36d313e	Verifier Search	nonce/island reroll	sky15 tail-nonce re-roll only (15000704855378 → 15500142914726)
 799153a	Register and Scratch Allocation	ancilla-lifetime / venting	sky16: HEO_R1M 190→99 gives head-batch cells more room, 3 chunks not 4
+284e2b0	Register and Scratch Allocation	in-place mutation	Sky17: I35 bridge budgets added to 28 late multiply-leg proxy rounds (~46 cells)
+f79a8d1	Dead-Code and Redundancy Elimination	fold/carry truncation	Sky18: fold band 44:0→56:0, FOLD_WIDEN 144→128, ERASE_COMPARE 21→20; 56 rows
+d1608a3	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+f904fca	Dead-Code and Redundancy Elimination	fold/carry truncation	Sky19: TERMINAL_FW 50→40 plus division-leg I35 bridges on 10 cells; 62 rows
+cf13eba	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+6f2b3a6	Dead-Code and Redundancy Elimination	fold/carry truncation	Sky20: fold band 19:-4→-5 and FOLD_WIDEN 128→112; 61 rows
+d6dd7ef	Verifier Search	nonce/island reroll	Tail-nonce literal change only
+3161bd2	Register and Scratch Allocation	in-place mutation	Walk cap 1174→1173 via per-cell bridge/room table, trim-last split, error trades
+ed31e8e	Constant Propagation and Classical Specialization	host-derived / classical specialization	105 SAT rows on Q1173 stream, λ buy-back stack, re-picked per-cell bridge/room table
+83d0f70	Dead-Code and Redundancy Elimination	fold/carry truncation	Q73c: FOLD_WIDEN 128→112; same 105 rows re-ported to shifted stream
+9eace63	Verifier Search	nonce/island reroll	q73c nonce re-roll only; −10 T
+7c1a800	Dead-Code and Redundancy Elimination	comparator/width truncation	q73d: GO_CELLF sells one flag-compare bit on multiply ticks 150–224, 345–420
+e3fd358	Verifier Search	nonce/island reroll	q73d nonce re-roll only; −5 T
+9db31da	Register and Scratch Allocation	ancilla-lifetime / venting	Cap 1173→1172: new bridge/room table, exact shared pair carry in pack5, compare/fold sells
+05161d3	Register and Scratch Allocation	ancilla-lifetime / venting	q71a: cap 1171 via pair-carry port plus twins, LIFO/R1M, envelopes, 377 rows
+158bf21	Constant Propagation and Classical Specialization	host-derived / classical specialization	q71b: 73 more CCX→CX rows for ripple carries linear in live wires
+a1e2b66	Verifier Search	nonce/island reroll	q71b nonce re-roll only; −10 T
+a6034cb	Register and Scratch Allocation	ancilla-lifetime / venting	q71d: 32-cell need table moves late division cells onto the retained-prebias route
+0c373cd	Register and Scratch Allocation	ancilla-lifetime / venting	q70c: cap 1170, R1 head trim, 90-cell need table, low-cut sells, compare buys
+86221ad	Algorithmic Substitution	inversion/division algorithm swap	Leapfrog walk replaces both Skywalk divisions: 139 ticks, 5-qubit letters, no payload routes
+9440086	Strength Reduction	fast-adder reroute	Merged-op word u=x+ov+15sg rebuilt as (x+ov−sg)+16sg: 4 ANDs, not 8
+58229f8	Dead-Code and Redundancy Elimination	fold/carry truncation	LF_MERGED_LATE_WIN 58→52 on late merged-op folds
+308a6ea	Dead-Code and Redundancy Elimination	comparator/width truncation	Cap 1244+reorder 77; W1K 24→18 re-anchored; merged/cell fold and compare sells
